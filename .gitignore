@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Build outputs and caches (Vite / TypeScript / Test coverage)
+dist/
+dist-ssr/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Environment variables and secrets
+.env*
+!.env.example
+*.pem
+*.key
+
+# Logs and debug files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Editor / IDE temporary directories (keeping .agents/ tracked)
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

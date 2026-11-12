@@ -1,0 +1,676 @@
+{
+  "schemaVersion": "1.0.0",
+  "lastUpdated": "2026-11-12",
+  "opportunities": [
+    {
+      "id": "mepi-tomorrows-leaders-undergraduate-2027",
+      "category": "scholarship",
+      "title": {
+        "ar": "برنامج قادة الغد للمنح الجامعية (الدورة الأكاديمية 2027–2028)",
+        "en": "Tomorrow's Leaders Undergraduate Scholarship Program (2027–2028 Academic Year)"
+      },
+      "provider": {
+        "ar": "مبادرة الشراكة الأمريكية الشرق أوسطية (MEPI) – وزارة الخارجية الأمريكية (تُديره منظمة FHI 360)",
+        "en": "U.S.-Middle East Partnership Initiative (MEPI) – U.S. Department of State (Administered by FHI 360)"
+      },
+      "country": {
+        "code": "LB",
+        "ar": "لبنان",
+        "en": "Lebanon"
+      },
+      "mode": "onsite",
+      "fieldsOfStudy": [
+        {
+          "id": "computer-science",
+          "ar": "علوم الحاسوب",
+          "en": "Computer Science"
+        },
+        {
+          "id": "data-science",
+          "ar": "علم البيانات",
+          "en": "Data Science"
+        },
+        {
+          "id": "business-administration",
+          "ar": "إدارة الأعمال",
+          "en": "Business Administration"
+        },
+        {
+          "id": "economics",
+          "ar": "الاقتصاد",
+          "en": "Economics"
+        },
+        {
+          "id": "biology",
+          "ar": "الأحياء",
+          "en": "Biology"
+        },
+        {
+          "id": "chemistry",
+          "ar": "الكيمياء",
+          "en": "Chemistry"
+        },
+        {
+          "id": "mathematics",
+          "ar": "الرياضيات والرياضيات التطبيقية",
+          "en": "Mathematics and Applied Mathematics"
+        },
+        {
+          "id": "bioinformatics",
+          "ar": "المعلوماتية الحيوية",
+          "en": "Bioinformatics"
+        },
+        {
+          "id": "earth-sciences",
+          "ar": "علوم الأرض",
+          "en": "Earth Sciences"
+        },
+        {
+          "id": "graphic-design",
+          "ar": "التصميم الجرافيكي",
+          "en": "Graphic Design"
+        },
+        {
+          "id": "agribusiness-food-science",
+          "ar": "الأعمال الزراعية وعلوم وإدارة الأغذية",
+          "en": "Agribusiness and Food Science and Management"
+        }
+      ],
+      "studyLevels": [
+        "high_school"
+      ],
+      "deadlineType": "fixed",
+      "deadline": "2026-11-18",
+      "officialUrl": "https://www.tomorrowsleadersprogram.org/",
+      "verifiedAt": "2026-11-12",
+      "fundingType": "fully_funded",
+      "description": {
+        "ar": "برنامج منح دراسية لمرحلة البكالوريوس وتدريب قيادي ممول من مبادرة الشراكة الأمريكية الشرق أوسطية (MEPI) وتديره منظمة FHI 360 للطلاب المؤهلين من منطقة الشرق الأوسط وشمال أفريقيا (ومن ضمنها اليمن صراحةً) للدراسة الحضورية في الجامعة الأمريكية في بيروت (AUB) أو الجامعة اللبنانية الأمريكية (LAU) ابتداءً من أغسطس 2027 (علماً بأن التخصصات الطبية غير مشمولة).",
+        "en": "An undergraduate scholarship and leadership training program sponsored by the U.S. Department of State's Middle East Partnership Initiative (MEPI) and administered by FHI 360 for eligible MENA students (explicitly including Yemen) to study onsite at the American University of Beirut (AUB) or the Lebanese American University (LAU) starting August 2027 (note: medical school is not an eligible program of study)."
+      },
+      "eligibility": {
+        "ar": [
+          "أن يكون المتقدم مواطناً من الدول المؤهلة المذكورة في المصدر الرسمي ومنها اليمن (المواطنون الأمريكيون والمقيمون الدائمون في الولايات المتحدة غير مؤهلين).",
+          "أن يكون طالباً حالياً في السنة الأخيرة من الثانوية العامة، أو متخرجاً من الثانوية في عام 2026 (ويُقبل أيضاً المتقدمون من اليمن الذين تخرجوا من الثانوية في عام 2025 وفق نص المصدر الرسمي).",
+          "امتلاك سجل أكاديمي قوي، وإظهار النضج والمرونة والإمكانات القيادية.",
+          "إتقان اللغة الإنجليزية كتابةً وتحدثاً؛ يطلب من جميع المتقدمين إجراء تقييم مجاني عبر الإنترنت مقدم من جامعة ولاية أريزونا (ASU) ضمن طلب التقديم، ويُطلب من المتأهلين النهائيين لاحقاً تقديم درجة TOEFL iBT لا تقل عن 80 في المقياس القديم أو 4.0 في المقياس الجديد (أو ما يعادلها).",
+          "القدرة على السفر وبدء برنامج البكالوريوس في أغسطس 2027."
+        ],
+        "en": [
+          "Must be a citizen of an eligible MENA country/territory listed by the official source, explicitly including Yemen (U.S. citizens and U.S. legal permanent residents are not eligible).",
+          "Must be a current high school senior or a 2026 high school graduate (applicants from Yemen who graduated high school in 2025 are also explicitly eligible).",
+          "Must demonstrate strong academic credentials, maturity, flexibility, and leadership potential.",
+          "Proficiency in written and spoken English; all applicants take a free online English assessment provided by Arizona State University (ASU) as part of the application, and shortlisted finalists must confirm proficiency via TOEFL iBT (minimum 80 on the old scale or 4.0 on the new 1–6 scale) or IELTS.",
+          "Ability to travel and start the undergraduate program in August 2027."
+        ]
+      },
+      "benefits": {
+        "ar": [
+          "تغطية الرسوم الدراسية ورسوم التسجيل (لمدة أقصاها أربع سنوات أكاديمية لطلاب البكالوريوس).",
+          "تأمين صحي جامعي ورسوم تأشيرة الدخول وتصريح الإقامة.",
+          "سكن طلابي ومخصص معيشة شهري عند المشاركة في أنشطة البرنامج.",
+          "مخصص للكتب الدراسية وحاسوب محمول (Laptop) للاستخدام طوال مدة البرنامج.",
+          "تذكرتا سفر ذهاباً وإياباً سنوياً من وإلى البلد الأم."
+        ],
+        "en": [
+          "Tuition and enrollment fees (for a maximum period of four academic years for undergraduate students).",
+          "University health insurance, entrance visa, and residency permit fees.",
+          "Student housing and a monthly living stipend when participating in Tomorrow's Leaders activities.",
+          "Textbook allowance and a laptop for use for the duration of the program.",
+          "Two round-trip airfares from and to the home country per year."
+        ]
+      }
+    },
+    {
+      "id": "uwc-yemen-national-committee-2027",
+      "category": "scholarship",
+      "title": {
+        "ar": "طلب الترشيح عبر اللجنة الوطنية لكليات العالم المتحد في اليمن (UWC Yemen – دخول 2027)",
+        "en": "UWC Yemen National Committee Nomination Application – Entry 2027 (2027–2029)"
+      },
+      "provider": {
+        "ar": "كليات العالم المتحد – اللجنة الوطنية في اليمن (UWC Yemen)",
+        "en": "United World Colleges – UWC Yemen National Committee"
+      },
+      "country": {
+        "code": "MULTI",
+        "ar": "عدة دول",
+        "en": "Multiple Countries"
+      },
+      "mode": "onsite",
+      "fieldsOfStudy": [
+        {
+          "id": "unspecified",
+          "ar": "غير محدد في المصدر",
+          "en": "Not specified in source"
+        }
+      ],
+      "studyLevels": [
+        "unspecified"
+      ],
+      "deadlineType": "fixed",
+      "deadline": "2026-11-30",
+      "officialUrl": "https://apply.uwc.org/prog/nc_yemen_entry_2027/",
+      "verifiedAt": "2026-11-12",
+      "description": {
+        "ar": "بوابة تقديم طلبات الترشيح لدورة 2027–2029 عبر اللجنة الوطنية لكليات العالم المتحد في اليمن (UWC Yemen National Committee). تنبيه رسمي مهم: التقديم في هذه البوابة هو للنظر في الترشيح من قِبل اللجنة الوطنية لـ UWC في اليمن، والاختيار أو الترشيح من قِبل اللجنة لا يضمن القبول النهائي في إحدى مدارس أو كليات UWC؛ إذ تتخذ المدرسة أو الكلية المستقبلة قرار القبول النهائي.",
+        "en": "Application portal to be considered for nomination by the UWC Yemen National Committee for the 2027–2029 cycle. Important official disclaimer: Being selected or nominated by UWC Yemen does not guarantee final admission to a UWC school or college; the receiving UWC school or college makes the final admission decision."
+      },
+      "eligibility": {
+        "ar": [
+          "تُراجع الطلبات بصورة شاملة بناءً على المعايير المعلنة في صفحة التقديم: الفضول الفكري، والالتزام بالقيم الشخصية وقيم UWC.",
+          "الكفاءة الاجتماعية، والمرونة والوعي الذاتي والاستقلالية.",
+          "المسؤولية الشخصية والنزاهة، والمتانة الأكاديمية.",
+          "يمر الطلب بالمراحل المعلنة رسمياً: التقديم، ثم الاختيار، ثم الترشيح من قِبل اللجنة الوطنية، ثم قرار القبول النهائي من الكلية المستقبلة."
+        ],
+        "en": [
+          "Applications are reviewed holistically based on the criteria stated on the official page: intellectual curiosity, and commitment to personal values and UWC values.",
+          "Social competence, resilience, self-awareness, and independence.",
+          "Personal responsibility and integrity, and academic robustness.",
+          "Follows the official four-stage process: Application, Selection, Nomination by the National Committee, and Final Admission Decision by the receiving UWC school or college."
+        ]
+      }
+    },
+    {
+      "id": "mitx-supply-chain-analytics-ctl-sc0x",
+      "category": "course",
+      "title": {
+        "ar": "تحليلات سلاسل الإمداد (MITx CTL.SC0x)",
+        "en": "Supply Chain Analytics (MITx CTL.SC0x)"
+      },
+      "provider": {
+        "ar": "معهد ماساتشوستس للتكنولوجيا عبر الإنترنت (MITx / MIT Learn)",
+        "en": "Massachusetts Institute of Technology (MITx / MIT Learn)"
+      },
+      "country": {
+        "code": "US",
+        "ar": "الولايات المتحدة",
+        "en": "United States"
+      },
+      "mode": "online",
+      "fieldsOfStudy": [
+        {
+          "id": "supply-chain-management",
+          "ar": "إدارة سلاسل الإمداد",
+          "en": "Supply Chain Management"
+        },
+        {
+          "id": "data-analysis",
+          "ar": "تحليل البيانات والإحصاء",
+          "en": "Data Analysis and Statistics"
+        }
+      ],
+      "studyLevels": [
+        "unspecified"
+      ],
+      "deadlineType": "unspecified",
+      "deadline": null,
+      "officialUrl": "https://learn.mit.edu/courses/course-v1%3AMITxT%2BCTL.SC0x",
+      "verifiedAt": "2026-11-12",
+      "fundingType": "free",
+      "description": {
+        "ar": "دورة عبر الإنترنت من معهد ماساتشوستس للتكنولوجيا (مدتها المقدرة 13 أسبوعاً، بواقع 6–10 ساعات أسبوعياً) حول الأساليب الكمية في تحليل ونمذجة سلاسل الإمداد، بما في ذلك الاحتمالات والإحصاء، وتحليل الانحدار، والتحسين الرياضي، والمحاكاة. تتيح الصفحة الرسمية مسار التدقيق المجاني (Free Audit) الذي يمنح وصولاً مجانياً إلى الدورة وموادها التعليمية، بينما يتطلب مسار الشهادة الموثقة والاختبارات المقيمة رسوماً قدرها 199 دولاراً أمريكياً.",
+        "en": "An online course offered by MIT (estimated 13 weeks, 6–10 hours per week) covering core quantitative methods used in supply chain analysis and modeling, including probability, statistics, regression, optimization, and simulation. The official page provides a Free Audit track ('Learn for Free') granting free access to the course and course materials, whereas the verified Certificate Track with graded assignments and exams costs $199."
+      },
+      "benefits": {
+        "ar": [
+          "وصول مجاني إلى الدورة وموادها التعليمية عبر مسار التدقيق المجاني (Learn for Free – Audit this course).",
+          "إمكانية اختيارية للترقية إلى مسار الشهادة الموثقة والاختبارات المقيمة مقابل 199 دولاراً أمريكياً."
+        ],
+        "en": [
+          "Free access to the course and course materials via the Free Audit track ('Learn for Free – Audit this course').",
+          "Optional paid Certificate Track ($199) for graded assignments, exams, and a verified certificate of completion."
+        ]
+      }
+    },
+    {
+      "id": "mitx-supply-chain-design-ctl-sc2x",
+      "category": "course",
+      "title": {
+        "ar": "تصميم سلاسل الإمداد (MITx CTL.SC2x)",
+        "en": "Supply Chain Design (MITx CTL.SC2x)"
+      },
+      "provider": {
+        "ar": "معهد ماساتشوستس للتكنولوجيا عبر الإنترنت (MITx / MIT Learn)",
+        "en": "Massachusetts Institute of Technology (MITx / MIT Learn)"
+      },
+      "country": {
+        "code": "US",
+        "ar": "الولايات المتحدة",
+        "en": "United States"
+      },
+      "mode": "online",
+      "fieldsOfStudy": [
+        {
+          "id": "supply-chain-management",
+          "ar": "إدارة سلاسل الإمداد",
+          "en": "Supply Chain Management"
+        },
+        {
+          "id": "business-administration",
+          "ar": "إدارة الأعمال والعمليات",
+          "en": "Business and Operations Management"
+        }
+      ],
+      "studyLevels": [
+        "unspecified"
+      ],
+      "deadlineType": "unspecified",
+      "deadline": null,
+      "officialUrl": "https://learn.mit.edu/courses/course-v1%3AMITxT%2BCTL.SC2x",
+      "verifiedAt": "2026-11-12",
+      "fundingType": "free",
+      "description": {
+        "ar": "دورة عبر الإنترنت من معهد ماساتشوستس للتكنولوجيا (مدتها المقدرة 13 أسبوعاً، بواقع 8–12 ساعة أسبوعياً) تركز على تصميم وتحسين التدفقات المادية والمالية والمعلوماتية في سلاسل الإمداد، وتصميم الشبكات وتمويل سلاسل الإمداد وإدارة الموردين. تتيح الصفحة الرسمية مسار التدقيق المجاني (Free Audit) للوصول المجاني إلى الدورة وموادها التعليمية، بينما يتطلب مسار الشهادة الموثقة والاختبارات المقيمة رسوماً قدرها 299 دولاراً أمريكياً.",
+        "en": "An online course from MIT (estimated 13 weeks, 8–12 hours per week) focusing on designing and optimizing physical, financial, and information flows in a supply chain, network design, supply chain finance, and supplier management. The official page provides a Free Audit track ('Learn for Free') for free access to the course and course materials, while the verified Certificate Track with graded assignments and exams costs $299."
+      },
+      "benefits": {
+        "ar": [
+          "وصول مجاني إلى الدورة وموادها التعليمية عبر مسار التدقيق المجاني (Learn for Free – Audit this course).",
+          "إمكانية اختيارية للترقية إلى مسار الشهادة الموثقة والاختبارات المقيمة مقابل 299 دولاراً أمريكياً."
+        ],
+        "en": [
+          "Free access to the course and course materials via the Free Audit track ('Learn for Free – Audit this course').",
+          "Optional paid Certificate Track ($299) for graded assignments, exams, and a verified certificate of completion."
+        ]
+      }
+    },
+    {
+      "id": "mitx-data-analysis-statistical-modeling-6-419x",
+      "category": "course",
+      "title": {
+        "ar": "تحليل البيانات: النمذجة الإحصائية والحوسبة في التطبيقات (MITx 6.419x)",
+        "en": "Data Analysis: Statistical Modeling and Computation in Applications (MITx 6.419x)"
+      },
+      "provider": {
+        "ar": "معهد ماساتشوستس للتكنولوجيا عبر الإنترنت (MITx / MIT Learn)",
+        "en": "Massachusetts Institute of Technology (MITx / MIT Learn)"
+      },
+      "country": {
+        "code": "US",
+        "ar": "الولايات المتحدة",
+        "en": "United States"
+      },
+      "mode": "online",
+      "fieldsOfStudy": [
+        {
+          "id": "data-science",
+          "ar": "علم البيانات والإحصاء",
+          "en": "Data Science and Statistics"
+        },
+        {
+          "id": "computer-science",
+          "ar": "علوم الحاسوب",
+          "en": "Computer Science"
+        }
+      ],
+      "studyLevels": [
+        "unspecified"
+      ],
+      "deadlineType": "unspecified",
+      "deadline": null,
+      "officialUrl": "https://learn.mit.edu/courses/course-v1%3AMITxT%2B6.419x",
+      "verifiedAt": "2026-11-12",
+      "fundingType": "free",
+      "description": {
+        "ar": "دورة عبر الإنترنت من معهد ماساتشوستس للتكنولوجيا (مدتها المقدرة 16 أسبوعاً) تقدم مدخلاً عملياً للتكامل بين الإحصاء والحوسبة في تحليل البيانات الحقيقية، بما يشمل اختبار الفرضيات، والانحدار، وطرق الانحدار التدريجي، وتحليل الشبكات والسلاسل الزمنية والإحصاء المكاني. تتيح الصفحة الرسمية مسار التدقيق المجاني (Free Audit) للوصول المجاني إلى الدورة وموادها التعليمية، بينما تبلغ رسوم مسار الشهادة الموثقة والاختبارات المقيمة 300 دولار أمريكي.",
+        "en": "An online course from MIT (estimated 16 weeks) offering a hands-on introduction to the interplay between statistics and computation for analyzing real data, including hypothesis testing, regression, gradient descent, network analysis, time series, and spatial statistics. The official page provides a Free Audit track ('Learn for Free') for free access to the course and course materials, whereas the verified Certificate Track with graded assignments and exams costs $300."
+      },
+      "benefits": {
+        "ar": [
+          "وصول مجاني إلى الدورة وموادها التعليمية عبر مسار التدقيق المجاني (Learn for Free – Audit this course).",
+          "إمكانية اختيارية للترقية إلى مسار الشهادة الموثقة والاختبارات المقيمة مقابل 300 دولار أمريكي."
+        ],
+        "en": [
+          "Free access to the course and course materials via the Free Audit track ('Learn for Free – Audit this course').",
+          "Optional paid Certificate Track ($300) for graded assignments, exams, and a verified certificate of completion."
+        ]
+      }
+    },
+    {
+      "id": "mitx-energy-economics-and-policy-14-444x",
+      "category": "course",
+      "title": {
+        "ar": "اقتصاديات وسياسات الطاقة (MITx 14.444x)",
+        "en": "Energy Economics and Policy (MITx 14.444x)"
+      },
+      "provider": {
+        "ar": "معهد ماساتشوستس للتكنولوجيا عبر الإنترنت (MITx / MIT Learn)",
+        "en": "Massachusetts Institute of Technology (MITx / MIT Learn)"
+      },
+      "country": {
+        "code": "US",
+        "ar": "الولايات المتحدة",
+        "en": "United States"
+      },
+      "mode": "online",
+      "fieldsOfStudy": [
+        {
+          "id": "economics",
+          "ar": "الاقتصاد",
+          "en": "Economics"
+        },
+        {
+          "id": "public-policy",
+          "ar": "السياسات العامة والطاقة",
+          "en": "Public Policy and Energy"
+        }
+      ],
+      "studyLevels": [
+        "unspecified"
+      ],
+      "deadlineType": "unspecified",
+      "deadline": null,
+      "officialUrl": "https://learn.mit.edu/courses/course-v1%3AMITxT%2B14.444x",
+      "verifiedAt": "2026-11-12",
+      "fundingType": "free",
+      "description": {
+        "ar": "دورة عبر الإنترنت من معهد ماساتشوستس للتكنولوجيا (مدتها المقدرة 14 أسبوعاً) تتناول اقتصاديات أسواق الطاقة الواقعية (النفط، الغاز الطبيعي، الكهرباء، والطاقة النووية) والسياسات التنظيمية مثل ضرائب الكربون ومعايير الكفاءة للحد من انبعاثات الغازات الدفيئة. تتيح الصفحة الرسمية مسار التدقيق المجاني (Free Audit) للوصول المجاني إلى الدورة وموادها التعليمية، بينما يتطلب مسار الشهادة الموثقة والاختبارات المقيمة رسوماً تتراوح بين 250 و1,000 دولار أمريكي (مع إتاحة التقديم على المساعدة المالية للشهادة).",
+        "en": "An online course from MIT (estimated 14 weeks) examining the economics of real-world energy markets (oil, natural gas, electricity, and nuclear power) and regulatory policies such as carbon taxes and efficiency standards. The official page provides a Free Audit track ('Learn for Free') for free access to the course and course materials, while the verified Certificate Track with graded assignments and exams costs $250–$1,000 (with an option to apply for financial aid)."
+      },
+      "benefits": {
+        "ar": [
+          "وصول مجاني إلى الدورة وموادها التعليمية عبر مسار التدقيق المجاني (Learn for Free – Audit this course).",
+          "إمكانية اختيارية للترقية إلى مسار الشهادة الموثقة والاختبارات المقيمة (250–1,000 دولار أمريكي مع توفر خيار التقديم على المساعدة المالية في صفحة الدورة)."
+        ],
+        "en": [
+          "Free access to the course and course materials via the Free Audit track ('Learn for Free – Audit this course').",
+          "Optional paid Certificate Track ($250–$1,000, with an 'Apply for financial aid' option on the official page) for graded assignments, exams, and a verified certificate."
+        ]
+      }
+    },
+    {
+      "id": "mitx-good-economics-for-hard-times-14-009x",
+      "category": "course",
+      "title": {
+        "ar": "الاقتصاد الجيد للأوقات الصعبة (MITx 14.009x)",
+        "en": "Good Economics for Hard Times (MITx 14.009x)"
+      },
+      "provider": {
+        "ar": "معهد ماساتشوستس للتكنولوجيا عبر الإنترنت (MITx / MIT Learn)",
+        "en": "Massachusetts Institute of Technology (MITx / MIT Learn)"
+      },
+      "country": {
+        "code": "US",
+        "ar": "الولايات المتحدة",
+        "en": "United States"
+      },
+      "mode": "online",
+      "fieldsOfStudy": [
+        {
+          "id": "economics",
+          "ar": "الاقتصاد التطبيقي",
+          "en": "Applied Economics"
+        },
+        {
+          "id": "public-policy",
+          "ar": "السياسات العامة",
+          "en": "Public Policy"
+        }
+      ],
+      "studyLevels": [
+        "unspecified"
+      ],
+      "deadlineType": "unspecified",
+      "deadline": null,
+      "officialUrl": "https://learn.mit.edu/courses/course-v1%3AMITxT%2B14.009x",
+      "verifiedAt": "2026-11-12",
+      "fundingType": "free",
+      "description": {
+        "ar": "دورة عبر الإنترنت من معهد ماساتشوستس للتكنولوجيا (مدتها المقدرة 14 أسبوعاً، بواقع 12–14 ساعة أسبوعياً) يقدمها الحائزان على جائزة نوبل أبهيجيت بانيرجي وإستر دوفلو حول استخدام الاقتصاد التطبيقي والبيانات لمعالجة قضايا السياسات العامة. تتيح الصفحة الرسمية مسار التدقيق المجاني (Free Audit) للوصول المجاني إلى الدورة وموادها التعليمية، بينما يتطلب مسار الشهادة الموثقة والاختبارات المقيمة رسوماً تتراوح بين 250 و1,000 دولار أمريكي (مع إتاحة التقديم على المساعدة المالية للشهادة).",
+        "en": "An online course from MIT (estimated 14 weeks, 12–14 hours per week) taught by Nobel laureates Abhijit Banerjee and Esther Duflo on how applied economics uses data to address public policy challenges. The official page provides a Free Audit track ('Learn for Free') for free access to the course and course materials, while the verified Certificate Track with graded assignments and exams costs $250–$1,000 (with an option to apply for financial aid)."
+      },
+      "benefits": {
+        "ar": [
+          "وصول مجاني إلى الدورة وموادها التعليمية عبر مسار التدقيق المجاني (Learn for Free – Audit this course).",
+          "إمكانية اختيارية للترقية إلى مسار الشهادة الموثقة والاختبارات المقيمة (250–1,000 دولار أمريكي مع توفر خيار التقديم على المساعدة المالية في صفحة الدورة)."
+        ],
+        "en": [
+          "Free access to the course and course materials via the Free Audit track ('Learn for Free – Audit this course').",
+          "Optional paid Certificate Track ($250–$1,000, with an 'Apply for financial aid' option on the official page) for graded assignments, exams, and a verified certificate."
+        ]
+      }
+    },
+    {
+      "id": "who-qatar-communications-internship-2604608",
+      "category": "internship",
+      "title": {
+        "ar": "تدريب في مجال التواصل والإعلام – مكتب منظمة الصحة العالمية في قطر (الوظيفة 2604608)",
+        "en": "WHO Communications Internship – Country Office Qatar (Job 2604608)"
+      },
+      "provider": {
+        "ar": "منظمة الصحة العالمية – مكتب ممثل المنظمة في قطر",
+        "en": "World Health Organization (WHO) – Representative's Office, Qatar"
+      },
+      "country": {
+        "code": "QA",
+        "ar": "قطر",
+        "en": "Qatar"
+      },
+      "mode": "onsite",
+      "fieldsOfStudy": [
+        {
+          "id": "communications",
+          "ar": "الاتصال والإعلام والعلاقات العامة",
+          "en": "Communications, Media, and Public Relations"
+        }
+      ],
+      "studyLevels": [
+        "undergraduate",
+        "graduate",
+        "recent_graduate"
+      ],
+      "deadlineType": "fixed",
+      "deadline": "2026-11-16",
+      "officialUrl": "https://careers.who.int/careersection/intern/jobdetail.ftl?job=2604608",
+      "verifiedAt": "2026-11-12",
+      "fundingType": "partially_funded",
+      "description": {
+        "ar": "فرصة تدريب بدوام كامل لمدة 9 أسابيع (من 22 نوفمبر 2026 إلى 21 يناير 2027) في مكتب ممثل منظمة الصحة العالمية في الدوحة – قطر، للمساهمة في تطوير وتنفيذ أنشطة التواصل الداعمة للأولويات الصحية الوطنية. تنبيه حول وقت الإغلاق: تعرض بوابة منظمة الصحة العالمية موعد إغلاق التقديم في 16 نوفمبر 2026 الساعة 11:59 مساءً، وعلى المتقدم مراجعة المنطقة الزمنية المعروضة في بوابة التقديم قبل إرسال الطلب.",
+        "en": "A full-time, 9-week onsite internship (22 November 2026 to 21 January 2027) at the WHO Representative's Office in Doha, Qatar, contributing to communication activities supporting national health priorities. Deadline notice: The WHO career portal displays the closing deadline as 16 November 2026 at 11:59:00 PM; applicants should verify the timezone displayed in the application portal prior to submission."
+      },
+      "eligibility": {
+        "ar": [
+          "إتمام ما يعادل ثلاث سنوات من الدراسة الجامعية بدوام كامل في الاتصال أو الإعلام أو العلاقات العامة أو أي مجال مشابه في جامعة أو مؤسسة معادلة قبل بدء التدريب، وأن يكون المتقدم مسجلاً في برنامج دراسي يؤدي إلى مؤهل رسمي (أو أن يكون قد تخرج بالفعل بشرط التقديم خلال 18 شهراً من إتمام المؤهل الرسمي).",
+          "شرط لغة أساسي: معرفة خبيرة (Expert knowledge) باللغتين الإنجليزية والعربية (ومعرفة متوسطة بلغة أخرى من لغات الأمم المتحدة تُعد ميزة إضافية).",
+          "خبرة أساسية في مجال الاتصال بما في ذلك الإعلام ووسائل التواصل الاجتماعي، وتنسيق وتطوير منتجات وحملات التواصل والمواد الصوتية والمرئية (ويفضل في قطاعي الصحة والتنمية).",
+          "الإلمام ببرامج الحاسوب الشائعة (Word, Excel, PowerPoint)، وتُعد معرفة البرامج الإحصائية مثل XLStat ميزة إضافية."
+        ],
+        "en": [
+          "Must have completed the equivalent of three years of full-time studies in communication, media, public relations, or a similar field at a university or equivalent institution prior to commencing the assignment, AND be enrolled in a course of study leading to a formal qualification (or apply within 18 months after completion of the formal qualification).",
+          "Essential language requirement: Expert knowledge of both English and Arabic (intermediate knowledge of another UN language is desirable).",
+          "Basic experience in communications including media and social media, coordinating communications products/campaigns, and developing audio-visual materials (preferably in health and development sectors).",
+          "Familiarity with commonly used computer programs (Word, Excel, PowerPoint); knowledge of statistical software such as XLStat is an advantage."
+        ]
+      },
+      "benefits": {
+        "ar": [
+          "المتدربون لا يتقاضون راتباً (no salary)، لكنهم يحصلون على بدل معيشة (Living Allowance) يُحسب بعد الاختيار بناءً على مقر العمل والإفصاح المالي عن أي منح أو دعم خارجي يتلقاه المتدرب.",
+          "توفير تغطية تأمين طبي وتأمين ضد الحوادث لجميع المتدربين من قِبل منظمة الصحة العالمية."
+        ],
+        "en": [
+          "Interns do not receive a salary, but they receive a living allowance calculated after selection based on the duty station and a financial disclosure of any external grants or scholarships.",
+          "WHO provides all interns with accident and medical insurance coverage."
+        ]
+      }
+    },
+    {
+      "id": "unesco-internship-digital-business-solutions",
+      "category": "internship",
+      "title": {
+        "ar": "تدريب اليونسكو: مكتب الحلول الرقمية للأعمال (Digital Business Solutions)",
+        "en": "UNESCO Internship: Digital Business Solutions"
+      },
+      "provider": {
+        "ar": "منظمة الأمم المتحدة للتربية والعلم والثقافة (اليونسكو – UNESCO)",
+        "en": "United Nations Educational, Scientific and Cultural Organization (UNESCO)"
+      },
+      "country": {
+        "code": "MULTI",
+        "ar": "عدة دول (المقر الرئيسي والمكاتب الميدانية والمعاهد)",
+        "en": "Multiple Countries (Headquarters, Field Offices, and Institutes)"
+      },
+      "mode": "onsite",
+      "fieldsOfStudy": [
+        {
+          "id": "computer-science",
+          "ar": "علوم الحاسوب وهندسة البرمجيات",
+          "en": "Computer Science and Software Engineering"
+        },
+        {
+          "id": "information-technology",
+          "ar": "تكنولوجيا المعلومات والشبكات والحوسبة السحابية",
+          "en": "Information Technology, Networking, and Cloud Computing"
+        },
+        {
+          "id": "cybersecurity",
+          "ar": "الأمن السيبراني والذكاء الاصطناعي",
+          "en": "Cybersecurity and Artificial Intelligence"
+        },
+        {
+          "id": "data-science",
+          "ar": "تحليل وتصوير البيانات",
+          "en": "Data Analytics and Visualization"
+        }
+      ],
+      "studyLevels": [
+        "undergraduate",
+        "graduate",
+        "recent_graduate"
+      ],
+      "deadlineType": "fixed",
+      "deadline": "2026-12-31",
+      "officialUrl": "https://careers.unesco.org/job/Multiple-INTERNSHIP-Digital-Business-Solutions/1347770857",
+      "verifiedAt": "2026-11-12",
+      "description": {
+        "ar": "إعلان للانضمام إلى قاعدة مرشحي التدريب (Pool of Intern Candidates) لمدة 1 إلى 6 أشهر في مكتب الحلول الرقمية (DBS) المسؤول عن عمليات تكنولوجيا المعلومات والاتصالات وتنفيذ الاستراتيجية الرقمية لليونسكو (في مجالات: الشبكات والحوسبة السحابية، الأمن السيبراني والذكاء الاصطناعي التوليدي، تطوير التطبيقات وتحسين واجهات المستخدم، وتحليل البيانات). تنبيه مهم من المصدر الرسمي: التقديم يهدف إلى إدراج المتقدم في قاعدة المرشحين لمدة 6 أشهر ولا يضمن الحصول على فرصة تدريب فعلية، وتُحدَّد مواقع التدريب الفعلية بحسب احتياج الجهة والموقع الذي يتم اختياره للمتدرب (ولا يعني وصف مقر العمل بأنه Multiple أن المتقدم يستطيع اختيار أي موقع بحرية)، كما أن التدريب في اليونسكو غير مدفوع الأجر ويتحمل المتدرب تكاليف السفر والتأشيرة والتأمين الصحي الشامل.",
+        "en": "Vacancy notice to join the UNESCO pool of intern candidates (duration: 1 to 6 months) in the Bureau of Digital Business Solutions (DBS), covering IT operations, cloud platforms (AWS, Azure, Google Cloud), cybersecurity, AI/Generative AI, application development, and data visualization. Important official notice: Applying places candidates in the intern talent pool for 6 months and does not guarantee placement; actual internship locations are determined by organizational needs and the specific assignment selected for the intern (a 'Multiple' Duty Station designation does not mean applicants can freely choose any location); UNESCO internships are unpaid, and interns are responsible for their own visa, travel, and comprehensive health insurance costs."
+      },
+      "eligibility": {
+        "ar": [
+          "ألا يقل عمر المتقدم عن 20 عاماً عند التقديم.",
+          "أن يكون مسجلاً حالياً في السنة الثالثة أو الأخيرة من درجة البكالوريوس، أو مسجلاً في درجة جامعية ثانية (ماجستير أو دكتوراه أو ما يعادلها)، أو أن يكون قد أتم البكالوريوس أو الماجستير أو الدكتوراه منذ ما لا يزيد عن 12 شهراً قبل إصدار اتفاقية التدريب (أو في السنة الأخيرة/متخرجاً خلال 12 شهراً من مؤسسة تقنية/مهنية متخصصة للمهام التقنية).",
+          "إتقان ممتاز كتابةً وتحدثاً للغة الإنجليزية أو الفرنسية (ومعرفة اللغة الأخرى تعد ميزة إضافية).",
+          "التدريب غير مدفوع الأجر (لا تقدم اليونسكو أي تعويض مالي أو غير مالي)، ويتحمل المتدرب مسؤولية وتكاليف الحصول على التأشيرة وترتيب وتمويل السفر.",
+          "يجب على المتدرب تقديم إثبات تأمين صحي شامل صالح في بلد التدريب طوال فترة التدريب؛ إذ تقتصر تغطية اليونسكو على تأمين محدود في مكان العمل ضد مخاطر الإصابة أو المرض أو الإعاقة أو الوفاة الناتجة مباشرةً عن تنفيذ التدريب."
+        ],
+        "en": [
+          "Must be at least 20 years old to apply.",
+          "Must be currently enrolled in the 3rd or final year of a Bachelor's degree; OR enrolled in a second university degree (Master's, PhD, or equivalent); OR have completed a Bachelor's, Master's, or PhD degree no more than 12 months prior to the issuance of the Internship Agreement (or in the final year / graduated within 12 months from a specialized technical/vocational institution).",
+          "Excellent command, both written and spoken, of English or French (working knowledge of the other language is an asset).",
+          "UNESCO does not remunerate interns (no financial or other compensation); interns must arrange and finance their own travel and obtain any necessary visas.",
+          "Interns must provide proof of comprehensive health insurance valid in the duty station country for the entire internship; UNESCO provides only limited workplace insurance coverage against risk of injury, illness, disability, or death directly attributable to the execution of the internship."
+        ]
+      }
+    },
+    {
+      "id": "unesco-internship-education-sector",
+      "category": "internship",
+      "title": {
+        "ar": "تدريب اليونسكو: قطاع التعليم (Education Sector)",
+        "en": "UNESCO Internship: Education Sector"
+      },
+      "provider": {
+        "ar": "منظمة الأمم المتحدة للتربية والعلم والثقافة (اليونسكو – UNESCO)",
+        "en": "United Nations Educational, Scientific and Cultural Organization (UNESCO)"
+      },
+      "country": {
+        "code": "MULTI",
+        "ar": "عدة دول (المقر الرئيسي والمكاتب الميدانية والمعاهد)",
+        "en": "Multiple Countries (Headquarters, Field Offices, and Institutes)"
+      },
+      "mode": "onsite",
+      "fieldsOfStudy": [
+        {
+          "id": "unspecified",
+          "ar": "غير محدد في المصدر",
+          "en": "Not specified in source"
+        }
+      ],
+      "studyLevels": [
+        "undergraduate",
+        "graduate",
+        "recent_graduate"
+      ],
+      "deadlineType": "fixed",
+      "deadline": "2026-12-31",
+      "officialUrl": "https://careers.unesco.org/job/Multiple-INTERNSHIP-Education-Sector/1347773857",
+      "verifiedAt": "2026-11-12",
+      "description": {
+        "ar": "إعلان للانضمام إلى قاعدة مرشحي التدريب (Pool of Intern Candidates) لمدة 1 إلى 6 أشهر في قطاع التعليم باليونسكو المعني بأجندة التعليم 2030 والهدف الرابع من أهداف التنمية المستدامة (SDG 4)، ويشمل تطوير وإدارة مشاريع التعليم، وتحليل البيانات المتعلقة بالتعليم، وإعداد موجزات السياسات (Policy Briefs). تنبيه مهم من المصدر الرسمي: التقديم يهدف إلى الانضمام لقاعدة المرشحين لمدة 6 أشهر ولا يضمن الحصول على تدريب فعلي، وتُحدَّد مواقع التدريب الفعلية بحسب احتياج الجهة والموقع الذي يتم اختياره للمتدرب (ولا يعني وصف مقر العمل بأنه Multiple أن المتقدم يستطيع اختيار أي موقع بحرية)، كما أن التدريب غير مدفوع الأجر ويتحمل المتدرب تكاليف السفر والتأشيرة والتأمين الصحي الشامل.",
+        "en": "Vacancy notice to join the UNESCO pool of intern candidates (duration: 1 to 6 months) in the Education Sector supporting the Education 2030 Sustainable Development Agenda (SDG 4), involving education project management, education data analysis, and policy brief design. Important official notice: Applying places candidates in the intern talent pool for 6 months and does not guarantee placement; actual internship locations are determined by organizational needs and the specific assignment selected for the intern (a 'Multiple' Duty Station designation does not mean applicants can freely choose any location); UNESCO internships are unpaid, and interns are responsible for their own visa, travel, and comprehensive health insurance costs."
+      },
+      "eligibility": {
+        "ar": [
+          "ألا يقل عمر المتقدم عن 20 عاماً عند التقديم.",
+          "أن يكون مسجلاً حالياً في السنة الثالثة أو الأخيرة من درجة البكالوريوس، أو مسجلاً في درجة جامعية ثانية (ماجستير أو دكتوراه أو ما يعادلها)، أو أن يكون قد أتم البكالوريوس أو الماجستير أو الدكتوراه منذ ما لا يزيد عن 12 شهراً قبل إصدار اتفاقية التدريب (أو في السنة الأخيرة/متخرجاً خلال 12 شهراً من مؤسسة تقنية/مهنية متخصصة).",
+          "إتقان ممتاز كتابةً وتحدثاً للغة الإنجليزية أو الفرنسية (ومعرفة اللغة الأخرى تعد ميزة إضافية).",
+          "التدريب غير مدفوع الأجر (لا تقدم اليونسكو أي تعويض مالي أو غير مالي)، ويتحمل المتدرب مسؤولية وتكاليف الحصول على التأشيرة وترتيب وتمويل السفر.",
+          "يجب على المتدرب تقديم إثبات تأمين صحي شامل صالح في بلد التدريب طوال فترة التدريب؛ إذ تقتصر تغطية اليونسكو على تأمين محدود في مكان العمل ضد مخاطر الإصابة أو المرض أو الإعاقة أو الوفاة الناتجة مباشرةً عن تنفيذ التدريب."
+        ],
+        "en": [
+          "Must be at least 20 years old to apply.",
+          "Must be currently enrolled in the 3rd or final year of a Bachelor's degree; OR enrolled in a second university degree (Master's, PhD, or equivalent); OR have completed a Bachelor's, Master's, or PhD degree no more than 12 months prior to the issuance of the Internship Agreement (or in the final year / graduated within 12 months from a specialized technical/vocational institution).",
+          "Excellent command, both written and spoken, of English or French (working knowledge of the other language is an asset).",
+          "UNESCO does not remunerate interns (no financial or other compensation); interns must arrange and finance their own travel and obtain any necessary visas.",
+          "Interns must provide proof of comprehensive health insurance valid in the duty station country for the entire internship; UNESCO provides only limited workplace insurance coverage against risk of injury, illness, disability, or death directly attributable to the execution of the internship."
+        ]
+      }
+    },
+    {
+      "id": "unesco-internship-priority-africa-external-relations",
+      "category": "internship",
+      "title": {
+        "ar": "تدريب اليونسكو: قطاع أولوية أفريقيا والعلاقات الخارجية (PAX)",
+        "en": "UNESCO Internship: Priority Africa and External Relations"
+      },
+      "provider": {
+        "ar": "منظمة الأمم المتحدة للتربية والعلم والثقافة (اليونسكو – UNESCO)",
+        "en": "United Nations Educational, Scientific and Cultural Organization (UNESCO)"
+      },
+      "country": {
+        "code": "MULTI",
+        "ar": "عدة دول (المقر الرئيسي والمكاتب الميدانية والمعاهد)",
+        "en": "Multiple Countries (Headquarters, Field Offices, and Institutes)"
+      },
+      "mode": "onsite",
+      "fieldsOfStudy": [
+        {
+          "id": "unspecified",
+          "ar": "غير محدد في المصدر",
+          "en": "Not specified in source"
+        }
+      ],
+      "studyLevels": [
+        "undergraduate",
+        "graduate",
+        "recent_graduate"
+      ],
+      "deadlineType": "fixed",
+      "deadline": "2026-12-31",
+      "officialUrl": "https://careers.unesco.org/job/Multiple-INTERNSHIP-Priority-Africa-and-External-Relations/1348535957",
+      "verifiedAt": "2026-11-12",
+      "description": {
+        "ar": "إعلان للانضمام إلى قاعدة مرشحي التدريب (Pool of Intern Candidates) لمدة 1 إلى 6 أشهر في قطاع أولوية أفريقيا والعلاقات الخارجية (PAX) المعني بالتنسيق والارتباط مع الدول الأعضاء ومنظومة الأمم المتحدة والمنظمات الدولية الحكومية واللجان الوطنية، ويشمل إعداد مسودات المذكرات والرسائل والموجزات للاجتماعات الثنائية والاجتماعات النظامية. تنبيه مهم من المصدر الرسمي: التقديم يهدف إلى الانضمام لقاعدة المرشحين لمدة 6 أشهر ولا يضمن الحصول على تدريب فعلي، وتُحدَّد مواقع التدريب الفعلية بحسب احتياج الجهة والموقع الذي يتم اختياره للمتدرب (ولا يعني وصف مقر العمل بأنه Multiple أن المتقدم يستطيع اختيار أي موقع بحرية)، كما أن التدريب غير مدفوع الأجر ويتحمل المتدرب تكاليف السفر والتأشيرة والتأمين الصحي الشامل.",
+        "en": "Vacancy notice to join the UNESCO pool of intern candidates (duration: 1 to 6 months) in the Sector for Priority Africa and External Relations (PAX), assisting in liaison with Member States, the UN system, IGOs, and National Commissions, drafting notes/memoranda, and preparing briefings for bilateral and statutory meetings. Important official notice: Applying places candidates in the intern talent pool for 6 months and does not guarantee placement; actual internship locations are determined by organizational needs and the specific assignment selected for the intern (a 'Multiple' Duty Station designation does not mean applicants can freely choose any location); UNESCO internships are unpaid, and interns are responsible for their own visa, travel, and comprehensive health insurance costs."
+      },
+      "eligibility": {
+        "ar": [
+          "ألا يقل عمر المتقدم عن 20 عاماً عند التقديم.",
+          "أن يكون مسجلاً حالياً في السنة الثالثة أو الأخيرة من درجة البكالوريوس، أو مسجلاً في درجة جامعية ثانية (ماجستير أو دكتوراه أو ما يعادلها)، أو أن يكون قد أتم البكالوريوس أو الماجستير أو الدكتوراه منذ ما لا يزيد عن 12 شهراً قبل إصدار اتفاقية التدريب (أو في السنة الأخيرة/متخرجاً خلال 12 شهراً من مؤسسة تقنية/مهنية متخصصة).",
+          "إتقان ممتاز كتابةً وتحدثاً للغة الإنجليزية أو الفرنسية (ومعرفة اللغة الأخرى تعد ميزة إضافية).",
+          "التدريب غير مدفوع الأجر (لا تقدم اليونسكو أي تعويض مالي أو غير مالي)، ويتحمل المتدرب مسؤولية وتكاليف الحصول على التأشيرة وترتيب وتمويل السفر.",
+          "يجب على المتدرب تقديم إثبات تأمين صحي شامل صالح في بلد التدريب طوال فترة التدريب؛ إذ تقتصر تغطية اليونسكو على تأمين محدود في مكان العمل ضد مخاطر الإصابة أو المرض أو الإعاقة أو الوفاة الناتجة مباشرةً عن تنفيذ التدريب."
+        ],
+        "en": [
+          "Must be at least 20 years old to apply.",
+          "Must be currently enrolled in the 3rd or final year of a Bachelor's degree; OR enrolled in a second university degree (Master's, PhD, or equivalent); OR have completed a Bachelor's, Master's, or PhD degree no more than 12 months prior to the issuance of the Internship Agreement (or in the final year / graduated within 12 months from a specialized technical/vocational institution).",
+          "Excellent command, both written and spoken, of English or French (working knowledge of the other language is an asset).",
+          "UNESCO does not remunerate interns (no financial or other compensation); interns must arrange and finance their own travel and obtain any necessary visas.",
+          "Interns must provide proof of comprehensive health insurance valid in the duty station country for the entire internship; UNESCO provides only limited workplace insurance coverage against risk of injury, illness, disability, or death directly attributable to the execution of the internship."
+        ]
+      }
+    }
+  ]
+}
+

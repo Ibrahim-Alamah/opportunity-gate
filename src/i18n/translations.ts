@@ -21,9 +21,13 @@ export interface Translations {
   searchAndFilters: {
     searchPlaceholder: string;
     searchAriaLabel: string;
+    clearSearchAriaLabel: string;
+    toggleFiltersButton: (isOpen: boolean) => string;
     categoryLabel: string;
     fieldOfStudyLabel: string;
+    allFieldsOption: string;
     countryLabel: string;
+    allCountriesOption: string;
     countryGroups: {
       scopesHeading: string;
       countriesHeading: string;
@@ -63,6 +67,7 @@ export interface Translations {
     addToFavoritesAria: string;
     removeFromFavoritesAria: string;
     favoriteSavedBadge: string;
+    favoriteUnsavedBadge: string;
   };
   details: {
     backToListButton: string;
@@ -110,9 +115,14 @@ export const TRANSLATIONS: Record<SupportedLanguage, Translations> = {
     searchAndFilters: {
       searchPlaceholder: 'ابحث بعنوان الفرصة، الجهة المانحة، التخصص، أو الدولة...',
       searchAriaLabel: 'البحث في الفرص التعليمية والتدريبية',
+      clearSearchAriaLabel: 'مسح نص البحث',
+      toggleFiltersButton: (isOpen: boolean) =>
+        isOpen ? 'إخفاء الفلاتر والترتيب' : 'إظهار الفلاتر والترتيب',
       categoryLabel: 'نوع الفرصة',
       fieldOfStudyLabel: 'التخصص الدراسي',
+      allFieldsOption: 'جميع التخصصات',
       countryLabel: 'الدولة أو النطاق',
+      allCountriesOption: 'جميع الدول والنطاقات',
       countryGroups: {
         scopesHeading: 'نطاقات جغرافية عامة',
         countriesHeading: 'الدول',
@@ -184,6 +194,7 @@ export const TRANSLATIONS: Record<SupportedLanguage, Translations> = {
       addToFavoritesAria: 'إضافة الفرصة إلى قائمة المفضلة',
       removeFromFavoritesAria: 'إزالة الفرصة من قائمة المفضلة',
       favoriteSavedBadge: 'محفوظة',
+      favoriteUnsavedBadge: 'حفظ في المفضلة',
     },
     details: {
       backToListButton: 'العودة إلى قائمة الفرص',
@@ -236,9 +247,14 @@ export const TRANSLATIONS: Record<SupportedLanguage, Translations> = {
       searchPlaceholder:
         'Search by title, provider, field of study, or country...',
       searchAriaLabel: 'Search educational and training opportunities',
+      clearSearchAriaLabel: 'Clear search text',
+      toggleFiltersButton: (isOpen: boolean) =>
+        isOpen ? 'Hide Filters & Sort' : 'Show Filters & Sort',
       categoryLabel: 'Category',
       fieldOfStudyLabel: 'Field of Study',
+      allFieldsOption: 'All Fields',
       countryLabel: 'Country / Scope',
+      allCountriesOption: 'All Countries & Scopes',
       countryGroups: {
         scopesHeading: 'Global & Multi-Country Scopes',
         countriesHeading: 'Countries',
@@ -310,6 +326,7 @@ export const TRANSLATIONS: Record<SupportedLanguage, Translations> = {
       addToFavoritesAria: 'Add opportunity to favorites',
       removeFromFavoritesAria: 'Remove opportunity from favorites',
       favoriteSavedBadge: 'Saved',
+      favoriteUnsavedBadge: 'Save to Favorites',
     },
     details: {
       backToListButton: 'Back to Opportunities',

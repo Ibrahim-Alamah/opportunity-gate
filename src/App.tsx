@@ -38,6 +38,8 @@ export function App() {
 
   // FilterState implementation aligned with src/types/contracts.ts
   const [filters, setFilters] = useState<FilterState>(INITIAL_FILTER_STATE);
+  const [isMobileFiltersOpen, setIsMobileFiltersOpen] =
+    useState<boolean>(false);
 
   const setActiveTab = useCallback((tab: ActiveTab) => {
     setActiveTabState(tab);
@@ -165,7 +167,11 @@ export function App() {
                 <span className="favorite-btn__icon" aria-hidden="true">
                   {isFavorite(selectedEnriched.opportunity.id) ? '★' : '☆'}
                 </span>
-                <span>{t.card.favoriteSavedBadge}</span>
+                <span>
+                  {isFavorite(selectedEnriched.opportunity.id)
+                    ? t.card.favoriteSavedBadge
+                    : t.card.favoriteUnsavedBadge}
+                </span>
               </button>
             </div>
 
@@ -385,7 +391,11 @@ export function App() {
                   <input
                     id="search-input"
                     type="search"
-                    className="filter-panel__search-input"
+                    className={`filter-panel__search-input${
+                      filters.searchQuery.trim() !== ''
+                        ? ' filter-panel__search-input--active'
+                        : ''
+                    }`}
                     placeholder={t.searchAndFilters.searchPlaceholder}
                     value={filters.searchQuery}
                     onChange={(e) =>
@@ -396,10 +406,62 @@ export function App() {
                     }
                     data-testid="search-input"
                   />
+                  {filters.searchQuery.length > 0 ? (
+                    <button
+                      type="button"
+                      className="filter-panel__clear-search"
+                      aria-label={t.searchAndFilters.clearSearchAriaLabel}
+                      onClick={() =>
+                        setFilters((prev) => ({
+                          ...prev,
+                          searchQuery: '',
+                        }))
+                      }
+                      data-testid="clear-search-btn"
+                    >
+                      <span aria-hidden="true">×</span>
+                    </button>
+                  ) : null}
                 </div>
+
+                <button
+                  type="button"
+                  className={`filter-panel__mobile-toggle${
+                    activeFiltersCount > 0 || filters.sortBy !== 'deadline_asc'
+                      ? ' filter-panel__mobile-toggle--active'
+                      : ''
+                  }`}
+                  aria-expanded={isMobileFiltersOpen}
+                  aria-controls="filter-panel-grid"
+                  onClick={() => setIsMobileFiltersOpen((prev) => !prev)}
+                  data-testid="mobile-filters-toggle-btn"
+                >
+                  <span>
+                    {t.searchAndFilters.toggleFiltersButton(isMobileFiltersOpen)}
+                  </span>
+                  {activeFiltersCount > 0 ? (
+                    <bdi
+                      className="filter-panel__count-badge"
+                      data-testid="mobile-active-filters-badge"
+                    >
+                      {activeFiltersCount}
+                    </bdi>
+                  ) : null}
+                  <span
+                    className="filter-panel__toggle-chevron"
+                    aria-hidden="true"
+                  >
+                    {isMobileFiltersOpen ? '▴' : '▾'}
+                  </span>
+                </button>
               </div>
 
-              <div className="filter-panel__grid">
+              <div
+                id="filter-panel-grid"
+                className={`filter-panel__grid${
+                  isMobileFiltersOpen ? ' filter-panel__grid--open' : ''
+                }`}
+              >
                 {/* 1. Category Filter */}
                 <div className="filter-field">
                   <label
@@ -410,7 +472,11 @@ export function App() {
                   </label>
                   <select
                     id="filter-category"
-                    className="filter-field__select"
+                    className={`filter-field__select${
+                      filters.category !== 'all'
+                        ? ' filter-field__select--active'
+                        : ''
+                    }`}
                     value={filters.category}
                     onChange={(e) =>
                       setFilters((prev) => ({
@@ -438,7 +504,11 @@ export function App() {
                   </label>
                   <select
                     id="filter-field"
-                    className="filter-field__select"
+                    className={`filter-field__select${
+                      filters.fieldOfStudyId !== 'all'
+                        ? ' filter-field__select--active'
+                        : ''
+                    }`}
                     value={filters.fieldOfStudyId}
                     onChange={(e) =>
                       setFilters((prev) => ({
@@ -448,7 +518,9 @@ export function App() {
                     }
                     data-testid="filter-field"
                   >
-                    <option value="all">{t.studyLevels.all}</option>
+                    <option value="all">
+                      {t.searchAndFilters.allFieldsOption}
+                    </option>
                     {availableOptions.fieldsOfStudy.map((field) => (
                       <option key={field.id} value={field.id}>
                         {localize(field)}
@@ -467,7 +539,11 @@ export function App() {
                   </label>
                   <select
                     id="filter-country"
-                    className="filter-field__select"
+                    className={`filter-field__select${
+                      filters.countryCode !== 'all'
+                        ? ' filter-field__select--active'
+                        : ''
+                    }`}
                     value={filters.countryCode}
                     onChange={(e) =>
                       setFilters((prev) => ({
@@ -477,7 +553,9 @@ export function App() {
                     }
                     data-testid="filter-country"
                   >
-                    <option value="all">{t.categories.all}</option>
+                    <option value="all">
+                      {t.searchAndFilters.allCountriesOption}
+                    </option>
                     {availableOptions.countryScopes.length > 0 ? (
                       <optgroup
                         label={t.searchAndFilters.countryGroups.scopesHeading}
@@ -515,7 +593,11 @@ export function App() {
                   </label>
                   <select
                     id="filter-study-level"
-                    className="filter-field__select"
+                    className={`filter-field__select${
+                      filters.studyLevel !== 'all'
+                        ? ' filter-field__select--active'
+                        : ''
+                    }`}
                     value={filters.studyLevel}
                     onChange={(e) =>
                       setFilters((prev) => ({
@@ -549,7 +631,11 @@ export function App() {
                   </label>
                   <select
                     id="filter-deadline-status"
-                    className="filter-field__select"
+                    className={`filter-field__select${
+                      filters.deadlineStatus !== 'all'
+                        ? ' filter-field__select--active'
+                        : ''
+                    }`}
                     value={filters.deadlineStatus}
                     onChange={(e) =>
                       setFilters((prev) => ({
@@ -580,7 +666,11 @@ export function App() {
                   </label>
                   <select
                     id="filter-mode"
-                    className="filter-field__select"
+                    className={`filter-field__select${
+                      filters.mode !== 'all'
+                        ? ' filter-field__select--active'
+                        : ''
+                    }`}
                     value={filters.mode}
                     onChange={(e) =>
                       setFilters((prev) => ({
@@ -604,7 +694,11 @@ export function App() {
                   </label>
                   <select
                     id="filter-sort"
-                    className="filter-field__select"
+                    className={`filter-field__select${
+                      filters.sortBy !== 'deadline_asc'
+                        ? ' filter-field__select--active'
+                        : ''
+                    }`}
                     value={filters.sortBy}
                     onChange={(e) =>
                       setFilters((prev) => ({

@@ -1,6 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { LanguageProvider } from './context/LanguageContext.tsx';
+import { registerServiceWorker } from './utils/registerServiceWorker.ts';
 import App from './App.tsx';
 import './styles/global.css';
 import './styles/layout.css';
@@ -19,3 +20,5 @@ createRoot(rootElement).render(
     </LanguageProvider>
   </StrictMode>
 );
+
+registerServiceWorker();

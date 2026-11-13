@@ -52,6 +52,26 @@
   overflow-wrap: anywhere;
 }
 
+.app-header__title-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  line-height: inherit;
+  text-align: start;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition: color 0.15s ease;
+}
+
+.app-header__title-btn:hover {
+  color: var(--color-primary-hover);
+}
+
 .app-header__subtitle {
   font-size: var(--font-size-sm);
   color: var(--color-text-secondary);
@@ -132,6 +152,12 @@
 .app-header__tab-btn--active .app-header__badge {
   background-color: rgba(255, 255, 255, 0.22);
   color: var(--color-text-inverse);
+}
+
+.app-header__badge--favorites-active {
+  background-color: var(--color-favorite-bg);
+  border: 1px solid var(--color-favorite-border);
+  color: var(--color-favorite-active);
 }
 
 .app-header__lang-btn {

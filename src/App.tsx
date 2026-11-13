@@ -96,6 +96,17 @@ export function App() {
     );
   }, [items, selectedOpportunityId]);
 
+  const validFavoritesCount = useMemo(() => {
+    if (loading && items.length === 0) {
+      return favoritesCount;
+    }
+    return items.reduce(
+      (count, item) =>
+        favoriteIds.has(item.opportunity.id) ? count + 1 : count,
+      0
+    );
+  }, [loading, items, favoriteIds, favoritesCount]);
+
   const listSeparator = language === 'ar' ? '، ' : ', ';
 
   return (
@@ -103,7 +114,7 @@ export function App() {
       <Header
         activeTab={activeTab}
         setActiveTab={setActiveTab}
-        favoritesCount={favoritesCount}
+        favoritesCount={validFavoritesCount}
         totalCount={items.length}
       />
 
@@ -115,6 +126,7 @@ export function App() {
             aria-live="polite"
             data-testid="loading-state"
           >
+            <span className="state-panel__spinner" aria-hidden="true" />
             <h2 className="state-panel__title">{t.states.loading}</h2>
           </section>
         ) : error ? (
@@ -185,11 +197,13 @@ export function App() {
               <span
                 className={`badge badge--status-${selectedEnriched.evaluation.status}`}
               >
-                {formatRemainingDays(
-                  selectedEnriched.evaluation.remainingDays,
-                  selectedEnriched.evaluation.status,
-                  language
-                )}
+                <bdi>
+                  {formatRemainingDays(
+                    selectedEnriched.evaluation.remainingDays,
+                    selectedEnriched.evaluation.status,
+                    language
+                  )}
+                </bdi>
               </span>
 
               {selectedEnriched.opportunity.fundingType ? (
@@ -749,7 +763,7 @@ export function App() {
                     </button>
                   ) : null}
 
-                  {activeTab === 'favorites' && favoritesCount > 0 ? (
+                  {activeTab === 'favorites' && validFavoritesCount > 0 ? (
                     <button
                       type="button"
                       className="btn btn--danger"
@@ -764,7 +778,7 @@ export function App() {
             </section>
 
             {filteredItems.length === 0 ? (
-              activeTab === 'favorites' && favoritesCount === 0 ? (
+              activeTab === 'favorites' && validFavoritesCount === 0 ? (
                 <section
                   className="state-panel"
                   data-testid="empty-favorites-state"
@@ -775,6 +789,14 @@ export function App() {
                   <p className="state-panel__hint">
                     {t.states.emptyFavoritesHint}
                   </p>
+                  <button
+                    type="button"
+                    className="btn btn--primary"
+                    onClick={() => setActiveTab('all')}
+                    data-testid="empty-favorites-browse-btn"
+                  >
+                    {t.nav.allOpportunities}
+                  </button>
                 </section>
               ) : (
                 <section
@@ -810,7 +832,7 @@ export function App() {
                   return (
                     <article
                       key={opportunity.id}
-                      className="opportunity-card"
+                      className={`opportunity-card opportunity-card--status-${evaluation.status}`}
                       data-testid={`opportunity-card-${opportunity.id}`}
                     >
                       <div>
@@ -825,11 +847,13 @@ export function App() {
                             <span
                               className={`badge badge--status-${evaluation.status}`}
                             >
-                              {formatRemainingDays(
-                                evaluation.remainingDays,
-                                evaluation.status,
-                                language
-                              )}
+                              <bdi>
+                                {formatRemainingDays(
+                                  evaluation.remainingDays,
+                                  evaluation.status,
+                                  language
+                                )}
+                              </bdi>
                             </span>
 
                             {opportunity.fundingType ? (

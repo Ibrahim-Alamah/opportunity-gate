@@ -140,6 +140,7 @@
   line-height: 1.35;
   max-inline-size: 100%;
   overflow-wrap: anywhere;
+  unicode-bidi: isolate;
 }
 
 .badge--category-scholarship {
@@ -444,6 +445,23 @@
   box-shadow: var(--shadow-md);
 }
 
+.opportunity-card--status-open {
+  border-inline-start: 4px solid var(--status-open-border);
+}
+
+.opportunity-card--status-closing_soon {
+  border-inline-start: 4px solid var(--status-closing-soon-border);
+}
+
+.opportunity-card--status-expired {
+  border-inline-start: 4px solid var(--status-expired-border);
+  background-color: var(--color-bg-subtle);
+}
+
+.opportunity-card--status-unspecified {
+  border-inline-start: 4px solid var(--status-unspecified-border);
+}
+
 .opportunity-card__top {
   display: flex;
   align-items: flex-start;
@@ -479,6 +497,7 @@
   text-align: start;
   cursor: pointer;
   overflow-wrap: anywhere;
+  unicode-bidi: isolate;
 }
 
 .opportunity-card__title-btn:hover {
@@ -492,6 +511,7 @@
   color: var(--color-primary);
   margin-block-end: var(--space-4);
   overflow-wrap: anywhere;
+  unicode-bidi: isolate;
 }
 
 .opportunity-card__meta {
@@ -545,6 +565,7 @@
   font-weight: 500;
   max-inline-size: 100%;
   overflow-wrap: anywhere;
+  unicode-bidi: isolate;
 }
 
 .opportunity-card__footer {
@@ -750,6 +771,21 @@
   overflow-wrap: anywhere;
 }
 
+.state-panel__spinner {
+  inline-size: 2.25rem;
+  block-size: 2.25rem;
+  border-radius: 50%;
+  border: 3px solid var(--color-primary-light);
+  border-block-start-color: var(--color-primary);
+  animation: state-panel-spin 0.8s linear infinite;
+}
+
+@keyframes state-panel-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* --------------------------------------------------------------------------
    7. Small Screens (360px+) & Reduced Motion
    -------------------------------------------------------------------------- */
@@ -827,11 +863,17 @@
   .favorite-btn,
   .opportunity-card,
   .app-header__tab-btn,
+  .app-header__title-btn,
   .app-header__lang-btn,
   .filter-panel__search-input,
   .filter-panel__clear-search,
   .filter-panel__mobile-toggle,
   .filter-field__select {
     transition: none;
+  }
+
+  .state-panel__spinner {
+    animation: none;
+    border-style: dashed;
   }
 }

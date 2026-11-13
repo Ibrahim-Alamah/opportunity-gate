@@ -27,7 +27,16 @@ export function Header({
     <header className="app-header">
       <div className="app-header__inner">
         <div className="app-header__brand">
-          <h1 className="app-header__title">{t.appTitle}</h1>
+          <h1 className="app-header__title">
+            <button
+              type="button"
+              className="app-header__title-btn"
+              onClick={() => setActiveTab('all')}
+              data-testid="header-home-btn"
+            >
+              {t.appTitle}
+            </button>
+          </h1>
           <p className="app-header__subtitle">{t.appSubtitle}</p>
         </div>
 
@@ -61,7 +70,15 @@ export function Header({
               onClick={() => setActiveTab('favorites')}
             >
               <span>{t.nav.favorites}</span>
-              <bdi className="app-header__badge">{favoritesCount}</bdi>
+              <bdi
+                className={`app-header__badge${
+                  favoritesCount > 0 && !isFavoritesActive
+                    ? ' app-header__badge--favorites-active'
+                    : ''
+                }`}
+              >
+                {favoritesCount}
+              </bdi>
             </button>
           </nav>
 

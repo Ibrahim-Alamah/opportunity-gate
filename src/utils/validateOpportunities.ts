@@ -3,7 +3,6 @@ import type {
   DeadlineType,
   DeliveryMode,
   FundingType,
-  OpportunitiesDataset,
   Opportunity,
   OpportunityCategory,
   SpecificStudyLevel,

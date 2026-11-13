@@ -317,9 +317,15 @@
 
 .filter-panel__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
   gap: var(--space-3);
   min-inline-size: 0;
+}
+
+@media (min-width: 1024px) {
+  .filter-panel__grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 
 .filter-field {
@@ -559,6 +565,8 @@
    5. Opportunity Detail View
    -------------------------------------------------------------------------- */
 .detail-view {
+  max-inline-size: var(--detail-max-width);
+  margin-inline: auto;
   background-color: var(--color-bg-surface);
   border: 1px solid var(--color-border-subtle);
   border-radius: var(--radius-lg);

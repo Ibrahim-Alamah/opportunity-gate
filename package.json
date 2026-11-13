@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "validate:data": "node scripts/validate-data.ts",
-    "test:data": "node scripts/validate-data.ts --self-test"
+    "test:data": "node scripts/validate-data.ts --self-test",
+    "test:functional": "node --test tests/*.test.ts"
   },
   "dependencies": {
     "react": "^18.3.1",

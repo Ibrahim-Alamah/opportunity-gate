@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-11-12",
+  "lastUpdated": "2026-11-14",
   "opportunities": [
     {
       "id": "mepi-tomorrows-leaders-undergraduate-2027",
@@ -670,7 +670,590 @@
           "Interns must provide proof of comprehensive health insurance valid in the duty station country for the entire internship; UNESCO provides only limited workplace insurance coverage against risk of injury, illness, disability, or death directly attributable to the execution of the internship."
         ]
       }
+    },
+    {
+      "id": "llm4yemen-free-ai-training-program",
+      "category": "course",
+      "title": {
+        "ar": "برنامج LLM4Yemen – التدريب المجاني على الذكاء الاصطناعي",
+        "en": "LLM4Yemen – Free AI Training Program"
+      },
+      "provider": {
+        "ar": "مبادرة LLM4Yemen",
+        "en": "LLM4Yemen Initiative"
+      },
+      "country": {
+        "code": "YE",
+        "ar": "اليمن",
+        "en": "Yemen"
+      },
+      "mode": "online",
+      "fieldsOfStudy": [
+        {
+          "id": "artificial-intelligence",
+          "ar": "الذكاء الاصطناعي",
+          "en": "Artificial Intelligence"
+        }
+      ],
+      "studyLevels": [
+        "undergraduate",
+        "recent_graduate"
+      ],
+      "deadlineType": "unspecified",
+      "deadline": null,
+      "fundingType": "free",
+      "description": {
+        "ar": "برنامج تدريبي مجاني ومكثف عبر الإنترنت لمدة 6 أسابيع باللغتين العربية والإنجليزية لتأهيل طلاب الجامعات والخريجين الجدد في اليمن بمهارات الذكاء الاصطناعي التطبيقي والعمل الحر عن بُعد، بمسارين (عملي/بدون برمجة وتقني). أُغلق التقديم للدفعة الأولى في 2026-07-31 وبدأت في 2026-09-07؛ ولا يُعد التقديم للدفعة الأولى مفتوحاً حالياً، كما لم يُعلن رسمياً بعد عن موعد فتح التسجيل للدفعة القادمة.",
+        "en": "A free, 6-week intensive online training program in Arabic and English equipping Yemeni university students and recent graduates with applied AI skills for remote work across two tracks (practical/no-code and technical). Cohort 1 applications closed on 2026-07-31 and began on 2026-09-07; Cohort 1 is not open, and the next cohort registration date has not been officially announced."
+      },
+      "eligibility": {
+        "ar": [
+          "مخصص للطلاب الجامعيين والخريجين الجدد في اليمن.",
+          "الالتزام بالحضور والمناهج والمختبرات ومشروع التخرج طوال فترة البرنامج (6 أسابيع).",
+          "سعة الدفعة محدودة بـ 15 طالباً وطالبة لكل دفعة لضمان الإشراف المباشر."
+        ],
+        "en": [
+          "Designed for Yemeni undergraduate university students and recent graduates.",
+          "Full 6-week commitment to coursework, labs, and capstone projects.",
+          "Selective intake capped at 15 students per cohort for close mentorship."
+        ]
+      },
+      "benefits": {
+        "ar": [
+          "مجاني بالكامل (رسوم البرنامج $0).",
+          "تدريب ثنائي اللغة (العربية والإنجليزية) بإشراف مدربين أكاديميين متطوعين.",
+          "كتب منهجية وتمارين تطبيقية ومشروع تخرج لتعزيز الجاهزية للعمل عن بُعد."
+        ],
+        "en": [
+          "Completely free ($0 program fee).",
+          "Bilingual (Arabic and English) instruction led by volunteer academic instructors.",
+          "Structured textbooks, hands-on lab exercises, and a capstone project for remote work readiness."
+        ]
+      },
+      "officialUrl": "https://fadhlyemen.github.io/llm4yemen",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "ediss-erasmus-mundus-joint-master-2027",
+      "category": "scholarship",
+      "title": {
+        "ar": "ماجستير إيراسموس موندوس المشترك في هندسة البرمجيات الذكية المعتمدة على البيانات (EDISS) – الدفعة السابعة",
+        "en": "Erasmus Mundus Joint Master in Engineering of Data-intensive Intelligent Software Systems (EDISS) – Intake 7"
+      },
+      "provider": {
+        "ar": "ائتلاف جامعات EDISS (برنامج إيراسموس موندوس – الاتحاد الأوروبي)",
+        "en": "EDISS Consortium (Erasmus Mundus – European Union)"
+      },
+      "country": {
+        "code": "FI",
+        "ar": "فنلندا (برنامج أوروبي مشترك)",
+        "en": "Finland (European Joint Programme)"
+      },
+      "mode": "onsite",
+      "fieldsOfStudy": [
+        {
+          "id": "software-engineering",
+          "ar": "هندسة البرمجيات",
+          "en": "Software Engineering"
+        },
+        {
+          "id": "data-science",
+          "ar": "علوم البيانات",
+          "en": "Data Science"
+        }
+      ],
+      "studyLevels": [
+        "graduate"
+      ],
+      "deadlineType": "fixed",
+      "deadline": "2027-01-12",
+      "fundingType": "fully_funded",
+      "description": {
+        "ar": "برنامج ماجستير مشترك في هندسة البرمجيات الذكية المعتمدة على البيانات للدفعة السابعة (2027–2029). الحالة حتى 2026-11-14: يُفتح التقديم قريباً؛ حيث تبدأ جولة منح إيراسموس موندوس وEDISS في 2026-11-16 (08:00 بتوقيت هلسنكي) وتُغلق في 2027-01-12 (15:00 بتوقيت هلسنكي) عبر بوابة Studyinfo.fi، وهي متاحة للمتقدمين من جميع أنحاء العالم بمن فيهم الطلاب اليمنيون.",
+        "en": "Erasmus Mundus Joint Master's programme in Engineering of Data-intensive Intelligent Software Systems for Intake 7 (2027–2029). Status as of 2026-11-14: opening soon—the Erasmus Mundus and EDISS Scholarship round opens 2026-11-16 (08:00 Helsinki time) and closes 2027-01-12 (15:00 Helsinki time) via Studyinfo.fi, open to applicants worldwide including Yemeni students."
+      },
+      "eligibility": {
+        "ar": [
+          "الحد الأدنى الرسمي للدرجة: درجة بكالوريوس (أو ما يعادلها) لا تقل عن 180 وحدة ECTS من جامعة معتمدة في علوم الحاسوب أو هندسة البرمجيات أو تخصص مكافئ.",
+          "المعرفة الأكاديمية المسبقة: يجب أن يمتلك المتقدم معرفة أكاديمية جامعية مناسبة في علوم الحاسوب وهندسة البرمجيات والرياضيات التطبيقية (ولا تعوّض الخبرة العملية في تقنية المعلومات عن غياب المعرفة النظرية الجامعية).",
+          "إثبات إجادة اللغة الإنجليزية: IELTS الأكاديمي بمعدل 6.5 إجمالاً وألا تقل أي درجة فرعية عن 6.0.",
+          "أو TOEFL iBT: للاختبارات المنجزة قبل 21 يناير 2026 يُشترط 93، وللاختبارات المنجزة بعد 21 يناير 2026 يُشترط 4.5 إجمالاً وألا تقل أي درجة قسم عن 4 (وللاختبارات المنعقدة في 21 يناير 2026 تحديداً يُرجى مراجعة صفحة متطلبات القبول الرسمية؛ ولا تُقبل النسخ الإلكترونية المنزلية).",
+          "تقديم الشهادات وكشوف الدرجات والسيرة الذاتية وفق قالب EDISS وفيديو دافع (نحو دقيقتين) ورسالتي توصية أكاديميتين وصورة جواز السفر."
+        ],
+        "en": [
+          "Formal minimum degree: an accredited Bachelor's or equivalent undergraduate degree of at least 180 ECTS in Computer Science, Software Engineering, or an equivalent subject.",
+          "Prior academic knowledge: applicants must have appropriate prior university-level academic knowledge in Computer Science, Software Engineering, and Applied Mathematics (practical IT work experience cannot substitute for formal theoretical university coursework).",
+          "English proficiency (IELTS Academic): minimum 6.5 overall with no individual band score below 6.0.",
+          "English proficiency (TOEFL iBT): minimum 93 for tests completed before 21 January 2026, and minimum 4.5 overall with no section below 4 for tests completed after 21 January 2026 (for tests taken on 21 January 2026 specifically, check the official EDISS admission requirements page; online/home editions are not accepted).",
+          "Submission of transcripts, degree certificate, CV using the official EDISS template, ~2-minute motivation video, two academic reference letters, and passport copy."
+        ]
+      },
+      "benefits": {
+        "ar": [
+          "منحة إيراسموس موندوس الممولة بالكامل للمرشحين المختارين (تشمل الرسوم الدراسية ومخصص المعيشة الشهري ومساهمة السفر وفق قواعد البرنامج).",
+          "تتوفر جولة منفصلة لإعفاء الرسوم الدراسية لاحقاً (2027-02-25 إلى 2027-03-11) لمن لا يحصلون على المنحة الكاملة."
+        ],
+        "en": [
+          "Fully funded Erasmus Mundus scholarship for selected candidates (covering participation/tuition costs, monthly living allowance, and travel/installation contributions per programme rules).",
+          "Separate tuition fee waiver round runs later (2027-02-25 to 2027-03-11) for non-EMJM scholarship tracks."
+        ]
+      },
+      "officialUrl": "https://www.master-ediss.eu/admission-requirements/",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "glocal-erasmus-mundus-joint-master-2027",
+      "category": "scholarship",
+      "title": {
+        "ar": "ماجستير إيراسموس موندوس المشترك في الأسواق العالمية والإبداع المحلي (GLOCAL) – دفعة 2027",
+        "en": "Erasmus Mundus Joint Master in Global Markets, Local Creativities (GLOCAL) – 2027 Intake"
+      },
+      "provider": {
+        "ar": "ائتلاف GLOCAL بقيادة جامعة غلاسكو (إيراسموس موندوس)",
+        "en": "GLOCAL Consortium led by University of Glasgow (Erasmus Mundus)"
+      },
+      "country": {
+        "code": "GB",
+        "ar": "المملكة المتحدة (برنامج أوروبي مشترك)",
+        "en": "United Kingdom (European Joint Programme)"
+      },
+      "mode": "onsite",
+      "fieldsOfStudy": [
+        {
+          "id": "economics",
+          "ar": "الاقتصاد",
+          "en": "Economics"
+        },
+        {
+          "id": "business-administration",
+          "ar": "إدارة الأعمال",
+          "en": "Business Administration"
+        }
+      ],
+      "studyLevels": [
+        "graduate"
+      ],
+      "deadlineType": "fixed",
+      "deadline": "2027-01-14",
+      "fundingType": "fully_funded",
+      "description": {
+        "ar": "برنامج ماجستير إيراسموس موندوس مشترك في الأسواق العالمية والإبداع المحلي (GLOCAL) لبداية سبتمبر 2027. الموعد النهائي للتقديم على منحة إيراسموس موندوس عبر نظام التقديم الإلكتروني لجامعة غلاسكو هو 2027-01-14 (الساعة 13:00 بتوقيت المملكة المتحدة) لجميع المسارات النشطة، وهو متاح للطلاب الدوليين بمن فيهم اليمنيون.",
+        "en": "Erasmus Mundus Joint Master's programme in Global Markets, Local Creativities (GLOCAL) for the September 2027 intake. The Erasmus Mundus Scholarship deadline via the University of Glasgow online application system is 2027-01-14 (13:00 UK time) across all recruiting tracks, open to international students worldwide including Yemeni applicants."
+      },
+      "eligibility": {
+        "ar": [
+          "متاح للمتقدمين الدوليين حول العالم وفق شروط القبول الأكاديمية واللغوية لجامعة غلاسكو والائتلاف.",
+          "اختيار مسار دراسي واحد فقط عند التقديم (ملاحظة: المسار H لا يقبل طلبات لدفعة 2027).",
+          "يشترط الحصول على عرض قبول مشروط أو غير مشروط واستكمال جميع الوثائق قبل الموعد النهائي للمنحة."
+        ],
+        "en": [
+          "Open to international applicants worldwide meeting consortium academic and English language entry requirements.",
+          "Applicants may apply to only one study track (note: Study Track H is not recruiting for the 2027 intake).",
+          "Must hold a conditional or unconditional admission offer with all required documents submitted before the scholarship deadline."
+        ]
+      },
+      "benefits": {
+        "ar": [
+          "منحة إيراسموس موندوس الممولة بالكامل لتكاليف المشاركة للحاصلين على المنحة (غير مضمونة تلقائياً لجميع المقبولين)، مع خيارين لصرف مخصص المعيشة على مدى عامين: (1) ثلاث دفعات مقدمة بقيمة 1,000 يورو لكل دفعة تُخصم من إجمالي المنحة ليصبح الصرف الشهري 1,275 يورو، أو (2) صرف 1,400 يورو شهرياً دون الدفعات المقدمة للسفر والاستقرار.",
+          "إعلان نتائج المنحة للمتقدمين في أبريل 2027."
+        ],
+        "en": [
+          "Fully funded Erasmus Mundus Scholarship covering participation costs for selected scholarship recipients (not guaranteed to every admitted applicant), with two payment options over two years: Option 1—three advance payments of EUR 1,000 each deducted from the overall award, resulting in EUR 1,275 monthly; Option 2—EUR 1,400 monthly without the travel/installation advance payments.",
+          "Scholarship outcome notifications issued in April 2027."
+        ]
+      },
+      "officialUrl": "https://globallocal-erasmusmundus.eu/how-to-apply/",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "stipendium-hungaricum-yemen-scholarship",
+      "category": "scholarship",
+      "title": {
+        "ar": "منحة ستبنديوم هنغاريكوم الدراسية – مسار اليمن (فرصة مستقبلية)",
+        "en": "Stipendium Hungaricum Scholarship Programme – Yemen (Future Opportunity)"
+      },
+      "provider": {
+        "ar": "مؤسسة تيمبوس العامة (المجر) ووزارة التعليم العالي اليمنية",
+        "en": "Tempus Public Foundation (Hungary) & Ministry of Higher Education (Yemen)"
+      },
+      "country": {
+        "code": "HU",
+        "ar": "المجر",
+        "en": "Hungary"
+      },
+      "mode": "onsite",
+      "fieldsOfStudy": [
+        {
+          "id": "all-fields",
+          "ar": "جميع التخصصات",
+          "en": "All Fields"
+        }
+      ],
+      "studyLevels": [
+        "undergraduate",
+        "graduate"
+      ],
+      "deadlineType": "unspecified",
+      "deadline": null,
+      "fundingType": "partially_funded",
+      "description": {
+        "ar": "برنامج منح حكومي مجري متكرر يشارك فيه اليمن عبر الشريك المرسل الرسمي (وزارة التعليم العالي والبحث العلمي والتعليم الفني والتدريب المهني). انتهى الموعد النهائي لدورة 2026/2027 في 2026-01-15، وحتى تاريخ 2026-11-14 لم يُنشر الإعلان الرسمي لدورة 2027/2028 بعد، لذا فإن الجدول الزمني القادم غير مؤكد حالياً. توفّر المنحة إعفاءً من الرسوم الدراسية ومساهمات شهرية للمعيشة والسكن وتأميناً صحياً، وهي مساهمات قد لا تغطي جميع تكاليف المعيشة أو الإيجار أو السفر.",
+        "en": "Recurring Hungarian government scholarship programme in which Yemen participates through its official Sending Partner (Ministry of Higher Education, Scientific Research, Technical Education and Vocational Training). The 2026/2027 deadline (2026-01-15) has passed, and as of 2026-11-14 the 2027/2028 Call for Applications has not yet been officially published; the next application timeline is not yet confirmed. Provisions include tuition exemption plus monthly living, accommodation, and medical contributions that may not cover all living, rent, or travel costs."
+      },
+      "eligibility": {
+        "ar": [
+          "مواطنو الجمهورية اليمنية المتقدمون لبرامج البكالوريوس أو الماجستير أو الدكتوراه أو التبادل الجزئي في أي تخصص متاح.",
+          "إلزامية التقديم المزدوج: عبر بوابة DreamApply المجرية والترشيح عبر وزارة التعليم العالي اليمنية عند فتح الدورة القادمة.",
+          "استيفاء الوثائق الأكاديمية والطبية وإثبات اللغة وفق دليل التقديم الرسمي للدورة عند صدوره."
+        ],
+        "en": [
+          "Yemeni citizens applying for full-degree or partial studies at Bachelor's, Master's, One-tier Master's, or Doctoral levels in any eligible field.",
+          "Mandatory two-channel process: DreamApply portal submission plus nomination by the Yemeni Ministry of Higher Education once the next cycle opens.",
+          "Submission of academic, medical, and language documents per the official Application Guide when published."
+        ]
+      },
+      "benefits": {
+        "ar": [
+          "إعفاء من الرسوم الدراسية طوال مدة الدراسة.",
+          "مخصص شهري، ومكان مجاني في السكن الجامعي أو مساهمة في تكاليف السكن، وتأمين صحي وفق اللوائح المجرية.",
+          "تنبيه رسمي: تمثل هذه المزايا مساهمة في نفقات المعيشة وقد لا تغطي جميع تكاليف المعيشة أو الإيجار أو السفر أو النفقات الشخصية، ما قد يستلزم موارد مالية إضافية من الطالب."
+        ],
+        "en": [
+          "Tuition fee exemption for the duration of studies.",
+          "Monthly stipend, free dormitory place or accommodation cost contribution, and medical insurance per Hungarian regulations.",
+          "Official note: these provisions are contributions to living expenses and may not cover all living costs, private rent, travel, or personal expenses; recipients may need supplemental personal funds."
+        ]
+      },
+      "officialUrl": "https://stipendiumhungaricum.hu/apply/",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "eth-zurich-cs-summer-research-fellowship-2027",
+      "category": "internship",
+      "title": {
+        "ar": "زمالة ETH زيورخ البحثية الصيفية في علوم الحاسوب 2027 (ETH SSRF)",
+        "en": "ETH Zurich Student Summer Research Fellowship (ETH SSRF) 2027"
+      },
+      "provider": {
+        "ar": "قسم علوم الحاسوب – المعهد الفدرالي للتقنية في زيورخ (ETH Zurich)",
+        "en": "Department of Computer Science – ETH Zurich"
+      },
+      "country": {
+        "code": "CH",
+        "ar": "سويسرا",
+        "en": "Switzerland"
+      },
+      "mode": "onsite",
+      "fieldsOfStudy": [
+        {
+          "id": "computer-science",
+          "ar": "علوم الحاسوب",
+          "en": "Computer Science"
+        },
+        {
+          "id": "mathematics",
+          "ar": "الرياضيات",
+          "en": "Mathematics"
+        },
+        {
+          "id": "physics",
+          "ar": "الفيزياء",
+          "en": "Physics"
+        },
+        {
+          "id": "electrical-engineering",
+          "ar": "الهندسة الكهربائية",
+          "en": "Electrical Engineering"
+        }
+      ],
+      "studyLevels": [
+        "undergraduate",
+        "graduate"
+      ],
+      "deadlineType": "fixed",
+      "deadline": "2026-12-16",
+      "fundingType": "fully_funded",
+      "description": {
+        "ar": "برنامج تدريب وبحث صيفي ممول بالكامل لمدة شهرين في قسم علوم الحاسوب بجامعة ETH زيورخ (2 يوليو – 27 أغسطس 2027). مفتوح حالياً (فُتح في 2026-11-01) حتى 2026-12-16 (13:00 بتوقيت وسط أوروبا) لطلاب البكالوريوس والماجستير من جميع أنحاء العالم بمن فيهم الطلاب اليمنيون (باستثناء طلاب ETH زيورخ الحاليين).",
+        "en": "Fully funded 2-month summer research fellowship hosted by the Department of Computer Science at ETH Zurich (July 2 – August 27, 2027). Currently open (opened 2026-11-01) until 2026-12-16 (13:00 CET) to Bachelor's and Master's students worldwide including Yemeni students (excluding students currently enrolled at ETH Zurich)."
+      },
+      "eligibility": {
+        "ar": [
+          "طالب بكالوريوس أو ماجستير مسجل حالياً في علوم الحاسوب أو مجال وثيق الصلة (الرياضيات، الفيزياء، الهندسة الكهربائية) خارج جامعة ETH زيورخ.",
+          "إتمام سنتين دراسيتين على الأقل بحلول بدء البرنامج (يستوفي طلاب الماجستير هذا الشرط تلقائياً)، وأن يكون تاريخ التخرج المتوقع في عام 2028 أو ما بعده.",
+          "إجادة اللغة الإنجليزية (لا يُشترط عادةً تقديم شهادة اختبار رسمية مثل IELTS أو TOEFL)."
+        ],
+        "en": [
+          "Currently enrolled Bachelor's or Master's student in Computer Science or a closely related field (Mathematics, Physics, Electrical Engineering) at a university other than ETH Zurich.",
+          "Completed at least two years of study by the start of the fellowship (Master's students automatically meet this), with an expected graduation date in 2028 or later.",
+          "Proficiency in English (formal test scores such as IELTS/TOEFL are typically not mandatory)."
+        ]
+      },
+      "benefits": {
+        "ar": [
+          "منحة مالية قدرها 4,000 فرنك سويسري لتغطية السكن ونفقات المعيشة؛ حيث يرتّب البرنامج السكن الطلابي ويُخصم إيجاره من مبلغ المنحة نفسه (وليس دفعة إضافية فوق الـ 4,000 فرنك).",
+          "تغطية نفقات السفر الدولي والتأشيرة المطبقة بشكل منفصل وفق الشروط الرسمية للبرنامج."
+        ],
+        "en": [
+          "CHF 4,000 stipend for accommodation and living expenses; student housing is arranged by the programme with its cost deducted from the CHF 4,000 stipend (accommodation is not an additional payment on top of CHF 4,000).",
+          "Travel and applicable visa expenses covered separately according to the official programme terms."
+        ]
+      },
+      "officialUrl": "https://inf.ethz.ch/studies/summer-research-fellowship.html",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "cern-openlab-summer-student-programme-2027",
+      "category": "internship",
+      "title": {
+        "ar": "برنامج سيرن أوبن لاب الصيفي للطلاب 2027 (SUM-OPENLAB-2027)",
+        "en": "CERN openlab Summer Student Programme 2027 (SUM-OPENLAB-2027)"
+      },
+      "provider": {
+        "ar": "المنظمة الأوروبية للأبحاث النووية – CERN openlab",
+        "en": "European Organization for Nuclear Research – CERN openlab"
+      },
+      "country": {
+        "code": "CH",
+        "ar": "سويسرا",
+        "en": "Switzerland"
+      },
+      "mode": "onsite",
+      "fieldsOfStudy": [
+        {
+          "id": "computer-science",
+          "ar": "علوم الحاسوب",
+          "en": "Computer Science"
+        },
+        {
+          "id": "information-technology",
+          "ar": "تقنية المعلومات",
+          "en": "Information Technology"
+        },
+        {
+          "id": "mathematics",
+          "ar": "الرياضيات",
+          "en": "Mathematics"
+        },
+        {
+          "id": "engineering",
+          "ar": "الهندسة",
+          "en": "Engineering"
+        },
+        {
+          "id": "physics",
+          "ar": "الفيزياء",
+          "en": "Physics"
+        }
+      ],
+      "studyLevels": [
+        "undergraduate",
+        "graduate"
+      ],
+      "deadlineType": "fixed",
+      "deadline": "2027-01-21",
+      "fundingType": "paid",
+      "description": {
+        "ar": "برنامج تدريبي تقني وبحثي محدد في الحوسبة وتقنية المعلومات في سيرن بجنيف (الرمز الوظيفي الرسمي: SUM-OPENLAB-2027) بعقد لمدة شهرين / 9 أسابيع حضورياً بالكامل (تاريخ البدء المثالي 21 يونيو 2027)، ويشمل محاضرات وورش عمل متخصصة في الحوسبة وتقريراً تقنياً وعرضاً ختامياً. متاح لطلاب البكالوريوس والماجستير المنتظمين (ويستثنى من شرط القيد المستمر الطلاب المتوقع تخرجهم خلال الصيف الأوروبي اعتباراً من مايو 2027 فقط، بينما لا يُقبل الخريجون عامة أو طلاب الدكتوراه) من جميع الجنسيات بما في ذلك اليمن. الموعد النهائي للتقديم هو 2027-01-21 (23:59 بتوقيت جنيف).",
+        "en": "Specific 2-month / 9-week fully onsite computing and IT summer programme at CERN in Geneva (official job reference: SUM-OPENLAB-2027; ideal start date June 21, 2027), featuring hands-on computing projects, specialized IT lectures/workshops, a technical report, and a final presentation. Open to currently enrolled Bachelor's and Master's students—with an official FAQ exception allowing applicants expecting to graduate during the European summer (as of May 2027)—and closed to general graduates and PhD candidates; open to all nationalities including Yemen. Deadline: 2027-01-21 (23:59 Geneva time)."
+      },
+      "eligibility": {
+        "ar": [
+          "طالب بكالوريوس أو ماجستير منتظم حالياً (غير متاح للخريجين عامةً أو مرشحي الدكتوراه) في علوم الحاسوب أو تقنية المعلومات أو الرياضيات أو الهندسة أو الفيزياء مع ملف حوسبي قوي.",
+          "إتمام 3 سنوات جامعية كاملة (6 فصول دراسية) على الأقل بحلول صيف 2027، والاستمرار كطالب مسجل بدوام كامل طوال فترة الإقامة (باستثناء من يتوقع تخرجهم خلال الصيف الأوروبي اعتباراً من مايو 2027 وفق الأسئلة الشائعة الرسمية؛ ولا يتأهل من تخرج مسبقاً وينتظر بدء الماجستير في سبتمبر).",
+          "مفتوح لجميع الجنسيات (الدول الأعضاء وغير الأعضاء في سيرن)، مع إجادة عملية جيدة للغة الإنجليزية."
+        ],
+        "en": [
+          "Currently enrolled Bachelor's or Master's student (not open to general graduates or PhD candidates) in Computer Science, IT, Mathematics, Engineering, or Physics with a strong computing profile.",
+          "Must have completed at least 3 academic years (6 semesters) of full-time university study by summer 2027 and remain registered as a full-time student during the stay—except applicants expecting to graduate during the European summer (as of May 2027) are also eligible per the official FAQ (already-graduated students starting a Master's in September are not eligible).",
+          "Open to applicants of all nationalities (CERN Member and Non-Member States), with good working knowledge of English."
+        ]
+      },
+      "benefits": {
+        "ar": [
+          "مخصص معيشة صافٍ قدره 94 فرنكاً سويسرياً يومياً طوال مدة العقد.",
+          "تغطية التأمين الصحي الشامل في سيرن، وتغطية نفقات السفر ذهاباً وإياباً إلى جنيف حسب الحالة، والمساعدة في إيجاد سكن في الموقع أو بالقرب منه."
+        ],
+        "en": [
+          "Net subsistence allowance of 94 CHF per calendar day.",
+          "Comprehensive CERN health insurance coverage, travel expenses to/from Geneva depending on individual circumstances, and assistance finding accommodation on-site or nearby."
+        ]
+      },
+      "officialUrl": "https://careers.cern/jobs/cern-openlab-summer-student-programme-2026/",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "harvard-cs50x-introduction-to-computer-science",
+      "category": "course",
+      "title": {
+        "ar": "مساق CS50x: مقدمة في علوم الحاسوب",
+        "en": "CS50x: Introduction to Computer Science"
+      },
+      "provider": {
+        "ar": "جامعة هارفارد (CS50 OpenCourseWare)",
+        "en": "Harvard University (CS50 OpenCourseWare)"
+      },
+      "country": {
+        "code": "US",
+        "ar": "الولايات المتحدة",
+        "en": "United States"
+      },
+      "mode": "online",
+      "fieldsOfStudy": [
+        {
+          "id": "computer-science",
+          "ar": "علوم الحاسوب",
+          "en": "Computer Science"
+        }
+      ],
+      "studyLevels": [
+        "all"
+      ],
+      "deadlineType": "rolling",
+      "deadline": null,
+      "fundingType": "free",
+      "description": {
+        "ar": "مساق تأسيسي مجاني وذاتي الوتيرة عبر الإنترنت في علوم الحاسوب يغطي البرمجة بلغات C وPython وSQL وJavaScript وHTML وCSS. تتوفر شهادة CS50 رقمية مجانية بعد تحقيق 70% فأعلى في التمارين المطلوبة والمشروع النهائي، بينما تتطلب الشهادة الموثّقة عبر edX رسوماً، ولا تُعد الشهادة المجانية مؤهلاً أكاديمياً معتمداً من جامعة هارفارد.",
+        "en": "A free, self-paced online introductory computer science course covering C, Python, SQL, JavaScript, HTML, and CSS. A free digital CS50 certificate is available after scoring at least 70% on required problem sets and the final project; verified edX certificates require payment, and the free CS50 certificate is not an accredited Harvard academic qualification."
+      },
+      "eligibility": {
+        "ar": [
+          "متاح لجميع المتعلمين حول العالم بما في ذلك الطلاب اليمنيون دون اشتراط خبرة برمجية مسبقة.",
+          "حساب مجاني لتسليم التمارين البرمجية واستيفاء نسبة 70% فأعلى للحصول على شهادة CS50 المجانية."
+        ],
+        "en": [
+          "Open worldwide, including to students in Yemen, with no prior programming experience required.",
+          "Free account required to submit problem sets and achieve at least 70% on all required assignments and final project for the free CS50 certificate."
+        ]
+      },
+      "benefits": {
+        "ar": [
+          "وصول مجاني كامل للمحاضرات والملاحظات والتمارين البرمجية عبر الإنترنت.",
+          "شهادة رقمية مجانية من CS50 عند استيفاء متطلبات النجاح (بينما الشهادة الموثّقة عبر edX مدفوعة)."
+        ],
+        "en": [
+          "Full free online access to lectures, notes, section materials, and problem sets.",
+          "Free digital CS50 certificate upon meeting course requirements (optional edX verified certificate is paid)."
+        ]
+      },
+      "officialUrl": "https://cs50.harvard.edu/x/",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "harvard-cs50p-programming-with-python",
+      "category": "course",
+      "title": {
+        "ar": "مساق CS50P: مقدمة في البرمجة بلغة بايثون",
+        "en": "CS50P: Introduction to Programming with Python"
+      },
+      "provider": {
+        "ar": "جامعة هارفارد (CS50 OpenCourseWare)",
+        "en": "Harvard University (CS50 OpenCourseWare)"
+      },
+      "country": {
+        "code": "US",
+        "ar": "الولايات المتحدة",
+        "en": "United States"
+      },
+      "mode": "online",
+      "fieldsOfStudy": [
+        {
+          "id": "computer-science",
+          "ar": "علوم الحاسوب",
+          "en": "Computer Science"
+        }
+      ],
+      "studyLevels": [
+        "all"
+      ],
+      "deadlineType": "rolling",
+      "deadline": null,
+      "fundingType": "free",
+      "description": {
+        "ar": "مساق مجاني وذاتي الوتيرة عبر الإنترنت مخصص لتعلّم البرمجة بلغة بايثون (الدوال، المتغيرات، الشروط، البرمجة كائنية التوجه، ومعالجة الملفات). تتوفر شهادة CS50 رقمية مجانية عند استيفاء متطلبات الواجبات والمشروع، بينما تتطلب الشهادة الموثّقة عبر edX رسوماً، ولا تُعد الشهادة المجانية مؤهلاً أكاديمياً معتمداً من جامعة هارفارد.",
+        "en": "A free, self-paced online course dedicated exclusively to programming with Python (functions, variables, conditionals, object-oriented programming, and file I/O). A free digital CS50 certificate is available after meeting all course requirements; verified edX certificates require payment, and the free CS50 certificate is not an accredited Harvard academic qualification."
+      },
+      "eligibility": {
+        "ar": [
+          "متاح مجاناً لجميع المتعلمين عالمياً دون متطلبات برمجية مسبقة.",
+          "تحقيق متطلبات النجاح في جميع التمارين والمشروع النهائي للحصول على شهادة CS50 المجانية."
+        ],
+        "en": [
+          "Open worldwide at no cost with no prior programming prerequisites.",
+          "Achieving passing scores on all required problem sets and the final project for the free CS50 certificate."
+        ]
+      },
+      "benefits": {
+        "ar": [
+          "محتوى تعليمي ومختبرات تطبيقية مجانية بالكامل عبر الإنترنت.",
+          "شهادة رقمية مجانية من CS50 عند استيفاء المتطلبات (والشهادة الموثّقة عبر edX اختيارية ومدفوعة)."
+        ],
+        "en": [
+          "Completely free online lectures, notes, and Python coding assignments.",
+          "Free digital CS50 certificate upon meeting course requirements (optional edX verified certificate is paid)."
+        ]
+      },
+      "officialUrl": "https://cs50.harvard.edu/python/",
+      "verifiedAt": "2026-11-14"
+    },
+    {
+      "id": "helsinki-full-stack-open",
+      "category": "course",
+      "title": {
+        "ar": "مساق Full Stack Open لتطوير الويب الحديث – جامعة هلسنكي",
+        "en": "Full Stack Open – University of Helsinki"
+      },
+      "provider": {
+        "ar": "جامعة هلسنكي",
+        "en": "University of Helsinki"
+      },
+      "country": {
+        "code": "FI",
+        "ar": "فنلندا",
+        "en": "Finland"
+      },
+      "mode": "online",
+      "fieldsOfStudy": [
+        {
+          "id": "software-engineering",
+          "ar": "هندسة البرمجيات",
+          "en": "Software Engineering"
+        }
+      ],
+      "studyLevels": [
+        "undergraduate",
+        "graduate",
+        "recent_graduate"
+      ],
+      "deadlineType": "rolling",
+      "deadline": null,
+      "fundingType": "free",
+      "description": {
+        "ar": "مساق مفتوح ومجاني عبر الإنترنت من جامعة هلسنكي لتطوير تطبيقات الويب الحديثة (React وRedux وNode.js وTypeScript وGraphQL والاختبار البرمجي). يتطلب مهارات برمجية جيدة ومعرفة أساسية بالويب وقواعد البيانات وGit، وتتوفر شهادة إتمام مجانية عبر نظام تسليم التمارين دون الحاجة للتسجيل في الجامعة المفتوحة أو أداء الامتحان الرسمي.",
+        "en": "A free, open, self-paced online course from the University of Helsinki on modern web development (React, Redux, Node.js, TypeScript, GraphQL, and testing). Prerequisites include good programming skills (typically 100–200 hours of practice), basic web/database knowledge, and Git basics. A free course certificate is available via the submission system without Open University registration or the course exam."
+      },
+      "eligibility": {
+        "ar": [
+          "متاح مجاناً للمتعلمين حول العالم بمن فيهم اليمنيون.",
+          "يتطلب إجادة جيدة للبرمجة (نحو 100–200 ساعة ممارسة) ومعرفة أساسية بتطوير الويب وقواعد البيانات ونظام Git (لا يشترط معرفة مسبقة بـ JavaScript)."
+        ],
+        "en": [
+          "Open free of charge to learners worldwide, including in Yemen.",
+          "Requires good programming skills (~100–200 hours of practice), basic web programming and database knowledge, and Git basics (prior JavaScript is not required)."
+        ]
+      },
+      "benefits": {
+        "ar": [
+          "محتوى جامعي مجاني بالكامل عبر الإنترنت في تطوير الويب الشامل.",
+          "شهادة مساق مجانية عبر نظام التسليم عند إكمال التمارين المطلوبة (كما تتاح وحدات ECTS من جامعة هلسنكي بشروط التسجيل في الجامعة المفتوحة واجتياز الامتحان)."
+        ],
+        "en": [
+          "100% free online curriculum in modern full-stack web development.",
+          "Free course certificate via the submission system upon completing enough exercises (University of Helsinki ECTS credits are separately available by enrolling via Open University and passing the exam)."
+        ]
+      },
+      "officialUrl": "https://fullstackopen.com/en/",
+      "verifiedAt": "2026-11-14"
     }
   ]
 }
-

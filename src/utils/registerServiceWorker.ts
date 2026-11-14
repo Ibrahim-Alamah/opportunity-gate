@@ -18,13 +18,19 @@ export function getServiceWorkerUrl(baseUrl?: string): string {
   return resolvePublicAssetUrl('sw.js', baseUrl);
 }
 
+function warnRegistrationFailure(error: unknown): void {
+  const reason = error instanceof Error ? error.message : String(error);
+  console.warn('Opportunity Gate: Service Worker registration failed.', reason);
+}
+
 /**
  * Registers the application Service Worker in production builds without blocking app startup.
  */
-export function registerServiceWorker(): void {
-  const isProd = Boolean(
+export function registerServiceWorker(
+  isProd: boolean = Boolean(
     (import.meta as { env?: { PROD?: boolean } }).env?.PROD
-  );
+  )
+): void {
   const hasSupport =
     typeof navigator !== 'undefined' && 'serviceWorker' in navigator;
 
@@ -35,11 +41,11 @@ export function registerServiceWorker(): void {
   const performRegistration = (): void => {
     try {
       const swUrl = getServiceWorkerUrl();
-      void navigator.serviceWorker.register(swUrl).catch(() => {
-        // Keep registration failures silent so online app usage is never disrupted
+      void navigator.serviceWorker.register(swUrl).catch((error: unknown) => {
+        warnRegistrationFailure(error);
       });
-    } catch {
-      // Ignore unexpected synchronous registration errors
+    } catch (error: unknown) {
+      warnRegistrationFailure(error);
     }
   };
 

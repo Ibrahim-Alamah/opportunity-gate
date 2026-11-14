@@ -2,6 +2,7 @@ const CACHE_PREFIX = 'opportunity-gate-';
 const SHELL_CACHE = `${CACHE_PREFIX}shell-v1`;
 const DATA_CACHE = `${CACHE_PREFIX}data-v1`;
 const ACTIVE_CACHES = new Set([SHELL_CACHE, DATA_CACHE]);
+const DATASET_FETCH_TIMEOUT_MS = 8000;
 
 function resolveScopeUrl(relativePath) {
   return new URL(relativePath, self.registration.scope).href;
@@ -157,8 +158,17 @@ self.addEventListener('activate', (event) => {
 });
 
 async function handleDatasetRequest(request, scopeInfo) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), DATASET_FETCH_TIMEOUT_MS);
+
   try {
-    const networkResponse = await fetch(request);
+    let networkResponse;
+    try {
+      networkResponse = await fetch(request, { signal: controller.signal });
+    } finally {
+      clearTimeout(timer);
+    }
+
     if (await isValidJsonResponse(networkResponse)) {
       await safeCachePut(DATA_CACHE, request, networkResponse.clone());
       return networkResponse;
